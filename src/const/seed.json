@@ -1,0 +1,3392 @@
+[
+  {
+    "menu_item": [
+      {
+        "id": "850e72cb-3893-4dd8-9433-80aaa9ffc6c4",
+        "created_at": "2023-10-07T22:47:37.357Z",
+        "updated_at": "2023-10-08T01:44:27.698Z",
+        "availability_status": false,
+        "dish_description": "Tender grilled chicken served with a side of roasted vegetables",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.15119914547540247,
+        "dish_calories": 45599,
+        "dish_ingredients": "Chicken, bell peppers, zucchini, olive oil",
+        "dish_preparation_time": 26080,
+        "dish_name": "Grilled Chicken with Roasted Vegetables",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 57337,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "f97cb585-6a00-4281-ac48-3cccb2ba6974",
+        "created_at": "2023-10-08T04:15:40.681Z",
+        "updated_at": "2023-10-08T03:17:51.578Z",
+        "availability_status": false,
+        "dish_description": "Creamy mushroom risotto with a hint of truffle oil",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.623594231903553,
+        "dish_calories": 28227,
+        "dish_ingredients": "Arborio rice, mushrooms, vegetable broth, parmesan cheese",
+        "dish_preparation_time": 23672,
+        "dish_name": "Mushroom Risotto",
+        "dish_allergens": "Gluten, dairy",
+        "dish_spiciness_level": 8001,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "2991f407-34ee-48e5-97d8-fe9919c08631",
+        "created_at": "2023-10-07T09:29:37.298Z",
+        "updated_at": "2023-10-07T06:24:32.528Z",
+        "availability_status": true,
+        "dish_description": "Freshly baked salmon topped with a lemon butter sauce",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.9189807137008756,
+        "dish_calories": 11029,
+        "dish_ingredients": "Salmon fillet, lemon, butter, dill",
+        "dish_preparation_time": 15369,
+        "dish_name": "Baked Salmon with Lemon Butter Sauce",
+        "dish_allergens": "Fish",
+        "dish_spiciness_level": 57912,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "42a2d2f2-0f80-4584-aaac-29bf1f199560",
+        "created_at": "2023-10-08T03:10:06.577Z",
+        "updated_at": "2023-10-08T03:13:01.300Z",
+        "availability_status": false,
+        "dish_description": "Homemade pasta with a rich tomato and basil sauce",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.03977968520484865,
+        "dish_calories": 84732,
+        "dish_ingredients": "Pasta, tomatoes, garlic, basil",
+        "dish_preparation_time": 96011,
+        "dish_name": "Tomato Basil Pasta",
+        "dish_allergens": "Gluten",
+        "dish_spiciness_level": 47244,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "0a1c0363-2fa8-453f-a66a-341817b976a5",
+        "created_at": "2023-10-07T15:39:39.379Z",
+        "updated_at": "2023-10-07T21:30:08.173Z",
+        "availability_status": true,
+        "dish_description": "Juicy steak cooked to perfection with a peppercorn sauce",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.12177681201137602,
+        "dish_calories": 67530,
+        "dish_ingredients": "Steak, black peppercorns, cream, butter",
+        "dish_preparation_time": 63407,
+        "dish_name": "Peppercorn Steak",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 15564,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      }
+    ],
+    "menu": [
+      {
+        "id": "7c9262cc-b237-45f8-a14e-a0de2a41f343",
+        "created_at": "2023-10-07T18:02:09.223Z",
+        "updated_at": "2023-10-07T17:29:48.737Z",
+        "availability_status": true,
+        "description": "Experience a culinary journey with our carefully curated menu",
+        "name": "Chef's Special Menu",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3c039168-5b15-47b4-93c6-06e854f94aae",
+        "created_at": "2023-10-08T03:29:54.262Z",
+        "updated_at": "2023-10-07T14:15:19.054Z",
+        "availability_status": true,
+        "description": "Indulge in a variety of flavors from around the world",
+        "name": "Seasonal Delights",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "946a155d-4ea9-4951-9824-c615f54a8d1a",
+        "created_at": "2023-10-07T22:42:58.660Z",
+        "updated_at": "2023-10-07T10:08:59.771Z",
+        "availability_status": true,
+        "description": "Savor the taste of our seasonal dishes made with fresh ingredients",
+        "name": "Global Fusion",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3cb4990d-fad8-45ff-ad31-7701eb0b71fa",
+        "created_at": "2023-10-07T16:41:19.301Z",
+        "updated_at": "2023-10-07T10:10:31.974Z",
+        "availability_status": false,
+        "description": "Enjoy a delightful meal in a relaxed and inviting atmosphere",
+        "name": "Taste of the Sea",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "96918c47-7257-4395-84fb-8a72db6f8e62",
+        "created_at": "2023-10-07T13:34:30.497Z",
+        "updated_at": "2023-10-07T11:14:05.866Z",
+        "availability_status": false,
+        "description": "Discover the perfect combination of taste and presentation",
+        "name": "Art of Plating",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "2917165e-d667-4353-951f-35fba0c87dfa",
+        "created_at": "2023-10-07T14:02:39.732Z",
+        "updated_at": "2023-10-08T00:54:47.963Z",
+        "description": "Explore our wide range of dishes inspired by different cuisines",
+        "name": "International Delights",
+        "tags": "Italian, Mexican, Asian",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF5733",
+        "menu_id": "946a155d-4ea9-4951-9824-c615f54a8d1a"
+      },
+      {
+        "id": "fdb5072b-8bc7-4f62-aa98-8fa57bc2a0f3",
+        "created_at": "2023-10-07T10:08:31.587Z",
+        "updated_at": "2023-10-08T05:07:45.129Z",
+        "description": "Discover the flavors of our signature dishes",
+        "name": "Signature Specials",
+        "tags": "Gourmet, Chef's Recommendations",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#6C3483",
+        "menu_id": "96918c47-7257-4395-84fb-8a72db6f8e62"
+      },
+      {
+        "id": "c61d2c9c-1132-407c-9246-b59a52acffb2",
+        "created_at": "2023-10-07T10:46:12.577Z",
+        "updated_at": "2023-10-07T16:12:53.704Z",
+        "description": "Indulge in a selection of vegetarian and vegan options",
+        "name": "Vegetarian & Vegan",
+        "tags": "Vegetarian, Vegan",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#1ABC9C",
+        "menu_id": "3c039168-5b15-47b4-93c6-06e854f94aae"
+      },
+      {
+        "id": "ca46a555-a5ee-4197-a6a3-385c72456179",
+        "created_at": "2023-10-07T13:33:32.801Z",
+        "updated_at": "2023-10-07T20:13:59.004Z",
+        "description": "Experience the perfect balance of textures and flavors",
+        "name": "Textures & Flavors",
+        "tags": "Crunchy, Spicy, Sweet",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#F4D03F",
+        "menu_id": "3c039168-5b15-47b4-93c6-06e854f94aae"
+      },
+      {
+        "id": "78180d61-d402-4788-945d-651fdd34e597",
+        "created_at": "2023-10-07T17:19:03.434Z",
+        "updated_at": "2023-10-08T01:53:41.099Z",
+        "description": "Satisfy your cravings with our comfort food classics",
+        "name": "Comfort Food Classics",
+        "tags": "Homestyle, Traditional",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#3498DB",
+        "menu_id": "96918c47-7257-4395-84fb-8a72db6f8e62"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "624dbca1-7b17-45bb-9b54-5515b325277d",
+        "created_at": "2023-10-07T06:34:16.418Z",
+        "updated_at": "2023-10-08T00:12:11.562Z",
+        "description": "A selection of dishes from our Chef's Special Menu",
+        "availability_status": false,
+        "dish_category_id": "78180d61-d402-4788-945d-651fdd34e597",
+        "menu_id": "7c9262cc-b237-45f8-a14e-a0de2a41f343"
+      },
+      {
+        "id": "bd1d99c7-258b-4a55-9c35-d298bce6d873",
+        "created_at": "2023-10-08T00:05:32.211Z",
+        "updated_at": "2023-10-07T20:01:16.100Z",
+        "description": "Indulge in our seasonal delights",
+        "availability_status": false,
+        "dish_category_id": "78180d61-d402-4788-945d-651fdd34e597",
+        "menu_id": "7c9262cc-b237-45f8-a14e-a0de2a41f343"
+      },
+      {
+        "id": "2b5d6208-7500-40cf-b380-a42f5d19b960",
+        "created_at": "2023-10-07T10:08:53.258Z",
+        "updated_at": "2023-10-07T05:59:19.259Z",
+        "description": "Discover the flavors of our global fusion cuisine",
+        "availability_status": false,
+        "dish_category_id": "78180d61-d402-4788-945d-651fdd34e597",
+        "menu_id": "3c039168-5b15-47b4-93c6-06e854f94aae"
+      },
+      {
+        "id": "828d8ffb-6983-47b4-aaa1-46e9bf4bdd16",
+        "created_at": "2023-10-07T22:29:32.063Z",
+        "updated_at": "2023-10-07T15:15:45.718Z",
+        "description": "Taste the freshness of the sea in our seafood dishes",
+        "availability_status": true,
+        "dish_category_id": "ca46a555-a5ee-4197-a6a3-385c72456179",
+        "menu_id": "96918c47-7257-4395-84fb-8a72db6f8e62"
+      },
+      {
+        "id": "4662bad3-7e14-440e-8b64-d592101d3fc5",
+        "created_at": "2023-10-08T04:25:27.856Z",
+        "updated_at": "2023-10-08T02:18:36.654Z",
+        "description": "Experience the art of plating with our beautifully presented meals",
+        "availability_status": true,
+        "dish_category_id": "2917165e-d667-4353-951f-35fba0c87dfa",
+        "menu_id": "3cb4990d-fad8-45ff-ad31-7701eb0b71fa"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "b4f346f2-40ae-4553-aee2-7ed307dfdd74",
+        "created_at": "2023-10-07T13:57:11.593Z",
+        "updated_at": "2023-10-07T08:31:43.082Z",
+        "availability_status": "Available",
+        "dish_category_id": "2917165e-d667-4353-951f-35fba0c87dfa",
+        "menu_item_id": "42a2d2f2-0f80-4584-aaac-29bf1f199560"
+      },
+      {
+        "id": "659e231a-6aa1-4b4f-834a-e226af5ff448",
+        "created_at": "2023-10-07T19:07:25.589Z",
+        "updated_at": "2023-10-07T22:41:20.084Z",
+        "availability_status": "Out of Stock",
+        "dish_category_id": "c61d2c9c-1132-407c-9246-b59a52acffb2",
+        "menu_item_id": "0a1c0363-2fa8-453f-a66a-341817b976a5"
+      },
+      {
+        "id": "41e959da-d45b-4c4f-8bb0-72ba09a07e30",
+        "created_at": "2023-10-07T10:11:52.162Z",
+        "updated_at": "2023-10-07T13:49:37.902Z",
+        "availability_status": "Limited Availability",
+        "dish_category_id": "ca46a555-a5ee-4197-a6a3-385c72456179",
+        "menu_item_id": "42a2d2f2-0f80-4584-aaac-29bf1f199560"
+      },
+      {
+        "id": "595cfe29-27df-4e80-8d28-7d9f06e55a28",
+        "created_at": "2023-10-08T02:28:45.616Z",
+        "updated_at": "2023-10-08T00:16:10.788Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "c61d2c9c-1132-407c-9246-b59a52acffb2",
+        "menu_item_id": "f97cb585-6a00-4281-ac48-3cccb2ba6974"
+      },
+      {
+        "id": "38c4b340-2e5c-4224-9d7d-2c3f162f749a",
+        "created_at": "2023-10-07T10:22:10.265Z",
+        "updated_at": "2023-10-07T05:38:13.078Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "78180d61-d402-4788-945d-651fdd34e597",
+        "menu_item_id": "850e72cb-3893-4dd8-9433-80aaa9ffc6c4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fe1b19be-d663-4eed-bdb0-f823a1f43f72",
+        "email": "Gail.Lang12@roq.tech",
+        "firstName": "Alvis",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/284.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3e7f8d2-a062-4598-9fb5-720ca5c71fef",
+        "email": "Leann.Welch@roq.tech",
+        "firstName": "Adriel",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37409283",
+        "tenantId": null
+      },
+      {
+        "reference": "8becc2e3-f3ff-42d1-9b85-f0f626fff35e",
+        "email": "Myah.Pfannerstill@roq.tech",
+        "firstName": "Lukas",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8720671",
+        "tenantId": null
+      },
+      {
+        "reference": "0f871613-faf7-46a5-bb4d-50909b88b66c",
+        "email": "Alverta10@roq.tech",
+        "firstName": "Harrison",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "292da891-dac4-4b0e-a68a-e66f00638772",
+        "email": "Robbie51@roq.tech",
+        "firstName": "Edna",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "e45960a0-3410-4e57-ab4e-8b9bca245e39",
+        "created_at": "2023-10-07T21:59:31.114Z",
+        "updated_at": "2023-10-07T21:31:27.051Z",
+        "availability_status": false,
+        "dish_description": "Tender grilled chicken served with a side of mashed potatoes",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.42976946802809834,
+        "dish_calories": 50000,
+        "dish_ingredients": "Chicken, potatoes, garlic, herbs",
+        "dish_preparation_time": 31922,
+        "dish_name": "Grilled Chicken with Mashed Potatoes",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 20642,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "8bf65a09-add8-4fc3-8e0a-3608184d0c0e",
+        "created_at": "2023-10-07T07:23:39.981Z",
+        "updated_at": "2023-10-07T13:21:05.278Z",
+        "availability_status": false,
+        "dish_description": "Freshly caught salmon seasoned with herbs and spices",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.7681307166349143,
+        "dish_calories": 12793,
+        "dish_ingredients": "Salmon, lemon, dill, olive oil",
+        "dish_preparation_time": 62451,
+        "dish_name": "Herb-Crusted Salmon",
+        "dish_allergens": "Contains fish",
+        "dish_spiciness_level": 24736,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "d7c02fc6-12a2-4b27-916d-7f65e90762ee",
+        "created_at": "2023-10-07T15:09:17.935Z",
+        "updated_at": "2023-10-07T21:58:31.691Z",
+        "availability_status": false,
+        "dish_description": "A classic cheeseburger with all the fixings",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.3227947873529047,
+        "dish_calories": 99594,
+        "dish_ingredients": "Beef patty, cheese, lettuce, tomato",
+        "dish_preparation_time": 28754,
+        "dish_name": "Classic Cheeseburger",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 82075,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "315aeb5d-7674-4d49-83aa-fb6f3a056787",
+        "created_at": "2023-10-07T12:03:30.411Z",
+        "updated_at": "2023-10-07T15:44:36.037Z",
+        "availability_status": false,
+        "dish_description": "Homemade pasta with a rich tomato sauce",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.5454496645834297,
+        "dish_calories": 16540,
+        "dish_ingredients": "Pasta, tomatoes, onions, garlic",
+        "dish_preparation_time": 31129,
+        "dish_name": "Pasta Pomodoro",
+        "dish_allergens": "Contains gluten",
+        "dish_spiciness_level": 6986,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "13e4c927-6c31-43d8-aa5b-389dd71a67fc",
+        "created_at": "2023-10-07T19:36:37.252Z",
+        "updated_at": "2023-10-07T12:10:11.652Z",
+        "availability_status": true,
+        "dish_description": "Mouthwatering steak cooked to perfection",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.2349341579247266,
+        "dish_calories": 56864,
+        "dish_ingredients": "Steak, salt, pepper, butter",
+        "dish_preparation_time": 60133,
+        "dish_name": "Filet Mignon",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 60415,
+        "dish_vegan": false,
+        "dish_gluten_free": true
+      }
+    ],
+    "menu": [
+      {
+        "id": "c3242e27-24f9-41e8-8f00-158366488bad",
+        "created_at": "2023-10-07T09:13:29.102Z",
+        "updated_at": "2023-10-07T08:54:00.453Z",
+        "availability_status": true,
+        "description": "Our menu offers a variety of delicious dishes to satisfy your cravings",
+        "name": "Spring Season Menu",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "12b962a3-8c9b-4891-8510-230f8086cd12",
+        "created_at": "2023-10-07T13:52:09.808Z",
+        "updated_at": "2023-10-08T05:10:20.240Z",
+        "availability_status": false,
+        "description": "Experience a culinary journey with our carefully crafted menu",
+        "name": "Chef's Specials",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c840735b-454f-418e-9d6d-8414c1f3ae0e",
+        "created_at": "2023-10-08T04:15:42.367Z",
+        "updated_at": "2023-10-07T20:32:06.473Z",
+        "availability_status": true,
+        "description": "Indulge in the finest flavors with our exquisite menu selection",
+        "name": "Gourmet Delights",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "9e48a0dd-5f62-4b0a-b814-5eb41931a4c8",
+        "created_at": "2023-10-08T02:15:44.805Z",
+        "updated_at": "2023-10-07T14:50:11.415Z",
+        "availability_status": false,
+        "description": "Discover new tastes and flavors with our innovative menu",
+        "name": "Taste of Italy",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1ab8fddf-6a03-4ad5-8615-78d6d6467b35",
+        "created_at": "2023-10-07T21:33:43.468Z",
+        "updated_at": "2023-10-07T21:11:30.978Z",
+        "availability_status": false,
+        "description": "Treat yourself to a memorable dining experience with our exceptional menu",
+        "name": "Savor the Sea",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "5828b29c-5b31-459b-94e1-fd6dcb44c821",
+        "created_at": "2023-10-07T20:11:12.948Z",
+        "updated_at": "2023-10-07T15:37:55.564Z",
+        "description": "Explore a wide range of dishes in this category",
+        "name": "Appetizers",
+        "tags": "Starters",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF5733",
+        "menu_id": "9e48a0dd-5f62-4b0a-b814-5eb41931a4c8"
+      },
+      {
+        "id": "f2ff7305-d410-4775-8437-139b822b61ba",
+        "created_at": "2023-10-07T22:37:43.601Z",
+        "updated_at": "2023-10-07T14:49:26.567Z",
+        "description": "Indulge in the flavors of this diverse dish category",
+        "name": "Seafood",
+        "tags": "Fresh Catch",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#3399FF",
+        "menu_id": "c840735b-454f-418e-9d6d-8414c1f3ae0e"
+      },
+      {
+        "id": "9817fac4-1fc7-4cc7-9658-e2f918cd85d4",
+        "created_at": "2023-10-07T18:49:29.228Z",
+        "updated_at": "2023-10-07T12:50:58.497Z",
+        "description": "Experience a fusion of flavors in this unique dish category",
+        "name": "Vegetarian",
+        "tags": "Meatless",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#33FF99",
+        "menu_id": "12b962a3-8c9b-4891-8510-230f8086cd12"
+      },
+      {
+        "id": "e64e9fdb-e583-4dab-9fd1-7228f246b1a4",
+        "created_at": "2023-10-07T17:49:50.372Z",
+        "updated_at": "2023-10-08T03:26:52.352Z",
+        "description": "Discover the essence of this traditional dish category",
+        "name": "Pasta",
+        "tags": "Italian",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FF33CC",
+        "menu_id": "9e48a0dd-5f62-4b0a-b814-5eb41931a4c8"
+      },
+      {
+        "id": "a42b23be-8d5a-4cf3-bb56-1b4735655669",
+        "created_at": "2023-10-07T10:58:11.281Z",
+        "updated_at": "2023-10-07T12:36:45.134Z",
+        "description": "Savor the taste of this popular dish category",
+        "name": "Steak",
+        "tags": "Prime Cuts",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FFFF33",
+        "menu_id": "12b962a3-8c9b-4891-8510-230f8086cd12"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "e4adcc24-972e-4420-8e33-52be36c27a51",
+        "created_at": "2023-10-07T10:39:02.723Z",
+        "updated_at": "2023-10-07T09:29:55.960Z",
+        "description": "This category features dishes from our current menu",
+        "availability_status": false,
+        "dish_category_id": "5828b29c-5b31-459b-94e1-fd6dcb44c821",
+        "menu_id": "12b962a3-8c9b-4891-8510-230f8086cd12"
+      },
+      {
+        "id": "af939de7-66f9-4884-91ed-a799eb58391f",
+        "created_at": "2023-10-07T16:54:24.137Z",
+        "updated_at": "2023-10-07T22:46:10.742Z",
+        "description": "Discover the highlights of this menu category",
+        "availability_status": true,
+        "dish_category_id": "5828b29c-5b31-459b-94e1-fd6dcb44c821",
+        "menu_id": "9e48a0dd-5f62-4b0a-b814-5eb41931a4c8"
+      },
+      {
+        "id": "fce60827-dd3a-4d09-aab6-3509b65b1a32",
+        "created_at": "2023-10-07T18:41:05.681Z",
+        "updated_at": "2023-10-07T18:26:19.866Z",
+        "description": "Indulge in the flavors of this popular menu category",
+        "availability_status": false,
+        "dish_category_id": "e64e9fdb-e583-4dab-9fd1-7228f246b1a4",
+        "menu_id": "c3242e27-24f9-41e8-8f00-158366488bad"
+      },
+      {
+        "id": "b53982ca-4663-4644-8bf5-ad0d9b5712fa",
+        "created_at": "2023-10-07T08:07:35.156Z",
+        "updated_at": "2023-10-07T07:28:24.704Z",
+        "description": "Experience the best of this menu category",
+        "availability_status": false,
+        "dish_category_id": "9817fac4-1fc7-4cc7-9658-e2f918cd85d4",
+        "menu_id": "9e48a0dd-5f62-4b0a-b814-5eb41931a4c8"
+      },
+      {
+        "id": "6ba59ab8-73f4-44db-bda1-d0c1144b66d7",
+        "created_at": "2023-10-07T10:46:25.747Z",
+        "updated_at": "2023-10-08T00:36:51.551Z",
+        "description": "Savor the taste of these signature dishes",
+        "availability_status": true,
+        "dish_category_id": "a42b23be-8d5a-4cf3-bb56-1b4735655669",
+        "menu_id": "c840735b-454f-418e-9d6d-8414c1f3ae0e"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "75cab2d3-ef22-467c-882d-0dbdbf60ec66",
+        "created_at": "2023-10-07T15:05:58.006Z",
+        "updated_at": "2023-10-07T13:25:15.451Z",
+        "availability_status": "Available",
+        "dish_category_id": "a42b23be-8d5a-4cf3-bb56-1b4735655669",
+        "menu_item_id": "d7c02fc6-12a2-4b27-916d-7f65e90762ee"
+      },
+      {
+        "id": "7520d246-ec61-4725-8e03-f54439fe6989",
+        "created_at": "2023-10-07T18:57:18.979Z",
+        "updated_at": "2023-10-07T11:13:23.020Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "a42b23be-8d5a-4cf3-bb56-1b4735655669",
+        "menu_item_id": "8bf65a09-add8-4fc3-8e0a-3608184d0c0e"
+      },
+      {
+        "id": "a783aad3-205b-4b51-85e6-b0de0990f6ed",
+        "created_at": "2023-10-07T09:15:05.982Z",
+        "updated_at": "2023-10-08T02:00:44.010Z",
+        "availability_status": "Limited Quantity",
+        "dish_category_id": "f2ff7305-d410-4775-8437-139b822b61ba",
+        "menu_item_id": "e45960a0-3410-4e57-ab4e-8b9bca245e39"
+      },
+      {
+        "id": "ca96ee78-163a-4e7b-bb82-f23d324c2438",
+        "created_at": "2023-10-07T14:16:20.433Z",
+        "updated_at": "2023-10-07T22:51:26.842Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "a42b23be-8d5a-4cf3-bb56-1b4735655669",
+        "menu_item_id": "13e4c927-6c31-43d8-aa5b-389dd71a67fc"
+      },
+      {
+        "id": "58f53d6c-ba53-4101-a83e-4cc911163f92",
+        "created_at": "2023-10-07T21:45:13.340Z",
+        "updated_at": "2023-10-07T22:49:33.843Z",
+        "availability_status": "Out of Season",
+        "dish_category_id": "9817fac4-1fc7-4cc7-9658-e2f918cd85d4",
+        "menu_item_id": "e45960a0-3410-4e57-ab4e-8b9bca245e39"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5b1494e4-fad4-4305-8f3e-05acf20b4436",
+        "email": "Mozelle.Conn50@roq.tech",
+        "firstName": "Nicolas",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/17.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bbd6d536-60bc-415f-98fb-7b26a637d9cb",
+        "email": "Parker.Kuhic@roq.tech",
+        "firstName": "Lilla",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/588.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99d4d026-6f43-4323-a65a-3a75a2a08b12",
+        "email": "Margie.Hyatt55@roq.tech",
+        "firstName": "Alexie",
+        "lastName": "Schuster-Legros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/3.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c68fcb11-14d8-460d-a5dc-d627e1d39ba8",
+        "email": "Belle_Tremblay89@roq.tech",
+        "firstName": "Izabella",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32953764",
+        "tenantId": null
+      },
+      {
+        "reference": "771df05b-1639-4a64-b168-0326d49f35e4",
+        "email": "Isidro.McDermott42@roq.tech",
+        "firstName": "Brandt",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/921.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "9e58501e-d91f-4bb4-b8a6-2b3d7778ff1e",
+        "created_at": "2023-10-07T08:24:54.540Z",
+        "updated_at": "2023-10-07T05:22:43.877Z",
+        "availability_status": true,
+        "dish_description": "A mouthwatering dish with a perfect blend of flavors",
+        "dish_image_url": "dish1.jpg",
+        "dish_price": 0.06901878747157753,
+        "dish_calories": 57667,
+        "dish_ingredients": "Fresh tomatoes, basil, mozzarella cheese",
+        "dish_preparation_time": 42483,
+        "dish_name": "Caprese Salad",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 47938,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "7fd0a082-20da-4fad-aa8b-5af67257d673",
+        "created_at": "2023-10-08T04:38:36.999Z",
+        "updated_at": "2023-10-07T22:38:10.941Z",
+        "availability_status": false,
+        "dish_description": "A hearty and satisfying dish that will leave you craving for more",
+        "dish_image_url": "dish2.jpg",
+        "dish_price": 0.17364553874358535,
+        "dish_calories": 46233,
+        "dish_ingredients": "Grilled chicken, mixed greens, avocado, cherry tomatoes",
+        "dish_preparation_time": 51277,
+        "dish_name": "Grilled Chicken Salad",
+        "dish_allergens": "Contains nuts",
+        "dish_spiciness_level": 86247,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "834102b6-3792-4c9d-a2c5-195417938c1a",
+        "created_at": "2023-10-07T17:43:37.424Z",
+        "updated_at": "2023-10-07T20:51:48.061Z",
+        "availability_status": false,
+        "dish_description": "A light and refreshing dish that is perfect for summer",
+        "dish_image_url": "dish3.jpg",
+        "dish_price": 0.4036851276177913,
+        "dish_calories": 67786,
+        "dish_ingredients": "Fresh salmon, lemon, dill, asparagus",
+        "dish_preparation_time": 12258,
+        "dish_name": "Grilled Salmon",
+        "dish_allergens": "Gluten-free",
+        "dish_spiciness_level": 21288,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "2babff8c-6c65-481e-88cd-9683faebd3a3",
+        "created_at": "2023-10-08T01:58:22.350Z",
+        "updated_at": "2023-10-08T01:01:33.127Z",
+        "availability_status": true,
+        "dish_description": "A rich and indulgent dish that is perfect for special occasions",
+        "dish_image_url": "dish4.jpg",
+        "dish_price": 0.2106203616131097,
+        "dish_calories": 3938,
+        "dish_ingredients": "Beef tenderloin, red wine reduction, roasted potatoes",
+        "dish_preparation_time": 2439,
+        "dish_name": "Beef Tenderloin",
+        "dish_allergens": "Contains shellfish",
+        "dish_spiciness_level": 25640,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "32aa14a5-59a0-47c5-a61a-70eeb8a0f3b0",
+        "created_at": "2023-10-07T13:50:16.879Z",
+        "updated_at": "2023-10-07T05:30:02.199Z",
+        "availability_status": true,
+        "dish_description": "A healthy and nutritious dish that is guilt-free",
+        "dish_image_url": "dish5.jpg",
+        "dish_price": 0.5780422331299633,
+        "dish_calories": 8702,
+        "dish_ingredients": "Quinoa, roasted vegetables, feta cheese",
+        "dish_preparation_time": 45846,
+        "dish_name": "Quinoa Bowl",
+        "dish_allergens": "Vegan-friendly",
+        "dish_spiciness_level": 48386,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      }
+    ],
+    "menu": [
+      {
+        "id": "6eb6ed44-721a-42f5-9a01-4b86c8e6874a",
+        "created_at": "2023-10-07T19:51:40.059Z",
+        "updated_at": "2023-10-08T02:13:49.661Z",
+        "availability_status": false,
+        "description": "A curated selection of our finest dishes",
+        "name": "Chef's Special",
+        "image": "menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "24b097ab-4755-4d19-93cd-394d916facc9",
+        "created_at": "2023-10-07T18:22:42.509Z",
+        "updated_at": "2023-10-07T15:54:28.682Z",
+        "availability_status": false,
+        "description": "A fusion of flavors from around the world",
+        "name": "Global Cuisine",
+        "image": "menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "05d0fad0-ca06-4a40-88af-4f4c8218146f",
+        "created_at": "2023-10-08T02:09:11.419Z",
+        "updated_at": "2023-10-07T23:33:23.058Z",
+        "availability_status": true,
+        "description": "A menu inspired by seasonal ingredients",
+        "name": "Seasonal Delights",
+        "image": "menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5fbbebd0-ef84-44c2-9d94-657e4f54be2f",
+        "created_at": "2023-10-07T11:59:45.878Z",
+        "updated_at": "2023-10-07T06:21:22.566Z",
+        "availability_status": false,
+        "description": "A menu designed for sharing and sampling",
+        "name": "Sharing Platter",
+        "image": "menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cac04a4b-97e4-40b9-ba6b-9ecd678ba753",
+        "created_at": "2023-10-07T11:12:35.449Z",
+        "updated_at": "2023-10-07T12:55:32.381Z",
+        "availability_status": false,
+        "description": "A menu that caters to all dietary preferences",
+        "name": "Dietary Options",
+        "image": "menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "7b35db5b-5b45-48f7-a725-7ed6c32554cf",
+        "created_at": "2023-10-07T09:07:11.522Z",
+        "updated_at": "2023-10-07T21:10:20.507Z",
+        "description": "A collection of classic dishes with a modern twist",
+        "name": "Modern Classics",
+        "tags": "#modern #twist",
+        "dish_category_image": "category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#ff7f50",
+        "menu_id": "cac04a4b-97e4-40b9-ba6b-9ecd678ba753"
+      },
+      {
+        "id": "66aed1d2-0b96-4d47-9d27-ce539271a648",
+        "created_at": "2023-10-08T00:59:48.586Z",
+        "updated_at": "2023-10-08T03:50:07.110Z",
+        "description": "A selection of healthy and nutritious options",
+        "name": "Healthy Choices",
+        "tags": "#healthy #nutritious",
+        "dish_category_image": "category2.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#00bfff",
+        "menu_id": "24b097ab-4755-4d19-93cd-394d916facc9"
+      },
+      {
+        "id": "312e56e5-98b6-4340-9a7f-ebea66213f1f",
+        "created_at": "2023-10-08T03:12:04.124Z",
+        "updated_at": "2023-10-07T13:51:41.879Z",
+        "description": "A variety of vegetarian and vegan dishes",
+        "name": "Vegetarian Delights",
+        "tags": "#vegetarian #vegan",
+        "dish_category_image": "category3.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#32cd32",
+        "menu_id": "24b097ab-4755-4d19-93cd-394d916facc9"
+      },
+      {
+        "id": "b0580fbf-7dd5-4841-a5f2-115374081287",
+        "created_at": "2023-10-07T16:05:33.653Z",
+        "updated_at": "2023-10-08T03:22:41.089Z",
+        "description": "A showcase of local and sustainable ingredients",
+        "name": "Local and Sustainable",
+        "tags": "#local #sustainable",
+        "dish_category_image": "category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#f4a460",
+        "menu_id": "6eb6ed44-721a-42f5-9a01-4b86c8e6874a"
+      },
+      {
+        "id": "47ff8e01-2954-4be2-8ce8-3995b2d962a5",
+        "created_at": "2023-10-07T07:34:50.585Z",
+        "updated_at": "2023-10-07T11:05:02.955Z",
+        "description": "A celebration of bold and flavorful cuisines",
+        "name": "Flavorful Cuisines",
+        "tags": "#flavorful #cuisines",
+        "dish_category_image": "category5.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#9370db",
+        "menu_id": "05d0fad0-ca06-4a40-88af-4f4c8218146f"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "183c16da-84d0-4d7d-97d7-bcc608290077",
+        "created_at": "2023-10-08T02:46:23.927Z",
+        "updated_at": "2023-10-08T02:28:25.153Z",
+        "description": "A special category for our signature dishes",
+        "availability_status": false,
+        "dish_category_id": "312e56e5-98b6-4340-9a7f-ebea66213f1f",
+        "menu_id": "5fbbebd0-ef84-44c2-9d94-657e4f54be2f"
+      },
+      {
+        "id": "8da4f86e-f0fa-482b-ba8d-73be71fed831",
+        "created_at": "2023-10-07T11:24:43.382Z",
+        "updated_at": "2023-10-07T11:53:44.286Z",
+        "description": "A unique collection of dishes for the adventurous foodies",
+        "availability_status": false,
+        "dish_category_id": "7b35db5b-5b45-48f7-a725-7ed6c32554cf",
+        "menu_id": "24b097ab-4755-4d19-93cd-394d916facc9"
+      },
+      {
+        "id": "cbb56d1d-98d7-4ac6-a75c-858cbc26e6da",
+        "created_at": "2023-10-08T00:13:07.496Z",
+        "updated_at": "2023-10-07T06:00:13.681Z",
+        "description": "A showcase of our chef's creativity and innovation",
+        "availability_status": false,
+        "dish_category_id": "66aed1d2-0b96-4d47-9d27-ce539271a648",
+        "menu_id": "6eb6ed44-721a-42f5-9a01-4b86c8e6874a"
+      },
+      {
+        "id": "f21542da-5520-4f17-a250-9498bdf228f0",
+        "created_at": "2023-10-08T00:57:19.045Z",
+        "updated_at": "2023-10-08T02:24:00.306Z",
+        "description": "A selection of dishes inspired by local flavors",
+        "availability_status": true,
+        "dish_category_id": "47ff8e01-2954-4be2-8ce8-3995b2d962a5",
+        "menu_id": "cac04a4b-97e4-40b9-ba6b-9ecd678ba753"
+      },
+      {
+        "id": "e71902cc-f0ef-4ede-b919-cfe8a15aecfd",
+        "created_at": "2023-10-07T05:18:03.450Z",
+        "updated_at": "2023-10-07T18:05:21.518Z",
+        "description": "A culinary journey through different regions",
+        "availability_status": false,
+        "dish_category_id": "7b35db5b-5b45-48f7-a725-7ed6c32554cf",
+        "menu_id": "5fbbebd0-ef84-44c2-9d94-657e4f54be2f"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "9561845a-67bb-4a5c-8566-85d2c4eca877",
+        "created_at": "2023-10-07T06:01:33.836Z",
+        "updated_at": "2023-10-07T16:27:47.194Z",
+        "availability_status": "Available",
+        "dish_category_id": "312e56e5-98b6-4340-9a7f-ebea66213f1f",
+        "menu_item_id": "7fd0a082-20da-4fad-aa8b-5af67257d673"
+      },
+      {
+        "id": "3028f511-2c70-4831-a019-1a71db7b4cd9",
+        "created_at": "2023-10-07T05:45:05.094Z",
+        "updated_at": "2023-10-07T17:46:37.371Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "312e56e5-98b6-4340-9a7f-ebea66213f1f",
+        "menu_item_id": "9e58501e-d91f-4bb4-b8a6-2b3d7778ff1e"
+      },
+      {
+        "id": "e64a13dc-f6c7-41d7-8191-ab4d12ef237a",
+        "created_at": "2023-10-07T16:22:18.825Z",
+        "updated_at": "2023-10-08T01:07:12.980Z",
+        "availability_status": "Limited Stock",
+        "dish_category_id": "66aed1d2-0b96-4d47-9d27-ce539271a648",
+        "menu_item_id": "2babff8c-6c65-481e-88cd-9683faebd3a3"
+      },
+      {
+        "id": "e3740262-ac58-45c2-bd15-52bf280fd999",
+        "created_at": "2023-10-07T10:45:42.470Z",
+        "updated_at": "2023-10-07T21:30:50.454Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "66aed1d2-0b96-4d47-9d27-ce539271a648",
+        "menu_item_id": "9e58501e-d91f-4bb4-b8a6-2b3d7778ff1e"
+      },
+      {
+        "id": "5b5246aa-75fc-4fd7-b896-f542567bdacd",
+        "created_at": "2023-10-07T11:14:50.844Z",
+        "updated_at": "2023-10-08T04:20:32.063Z",
+        "availability_status": "Pre-order Now",
+        "dish_category_id": "312e56e5-98b6-4340-9a7f-ebea66213f1f",
+        "menu_item_id": "7fd0a082-20da-4fad-aa8b-5af67257d673"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "119ad68e-c93a-4700-9a14-591d2952fdd4",
+        "email": "Zachary.Rempel38@roq.tech",
+        "firstName": "Hiram",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82136512",
+        "tenantId": null
+      },
+      {
+        "reference": "2a2eff07-d3c7-4fdb-bb97-2a0e826b9b26",
+        "email": "Presley47@roq.tech",
+        "firstName": "Marquis",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c211ffa4-bad9-4e4b-ad20-1145ab99377c",
+        "email": "Dax66@roq.tech",
+        "firstName": "Jonas",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73951981",
+        "tenantId": null
+      },
+      {
+        "reference": "ef17e8d4-465f-4bd4-bdfb-f2d44292d3f7",
+        "email": "Katelyn.Bechtelar93@roq.tech",
+        "firstName": "Roman",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13588352",
+        "tenantId": null
+      },
+      {
+        "reference": "b0832fe0-e8c8-4d79-84a1-e496b3305b72",
+        "email": "Jodie.Jenkins@roq.tech",
+        "firstName": "Reilly",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23386563",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "b3167e4f-170b-45e2-b688-cef2f1789835",
+        "created_at": "2023-10-07T13:27:33.941Z",
+        "updated_at": "2023-10-07T09:18:18.957Z",
+        "availability_status": true,
+        "dish_description": "Tender grilled chicken with a side of roasted vegetables",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.4399993314873427,
+        "dish_calories": 38629,
+        "dish_ingredients": "Chicken, broccoli, carrots, olive oil, garlic",
+        "dish_preparation_time": 87511,
+        "dish_name": "Grilled Chicken with Roasted Vegetables",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 99902,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "31fc217b-9b10-4ce5-ae14-c475e8377b29",
+        "created_at": "2023-10-07T22:34:48.184Z",
+        "updated_at": "2023-10-07T10:06:29.088Z",
+        "availability_status": true,
+        "dish_description": "Savory beef stew slow-cooked to perfection",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.4743422095198184,
+        "dish_calories": 51867,
+        "dish_ingredients": "Beef, potatoes, carrots, onions, thyme",
+        "dish_preparation_time": 40260,
+        "dish_name": "Slow-Cooked Beef Stew",
+        "dish_allergens": "Contains gluten",
+        "dish_spiciness_level": 13087,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "4bf3147d-a821-4957-8132-7760fb18ec9c",
+        "created_at": "2023-10-07T18:01:06.671Z",
+        "updated_at": "2023-10-07T07:38:22.196Z",
+        "availability_status": true,
+        "dish_description": "Fresh seafood pasta tossed in a creamy garlic sauce",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.31374240946024656,
+        "dish_calories": 17415,
+        "dish_ingredients": "Pasta, shrimp, scallops, garlic, cream",
+        "dish_preparation_time": 27146,
+        "dish_name": "Seafood Pasta in Creamy Garlic Sauce",
+        "dish_allergens": "Contains shellfish",
+        "dish_spiciness_level": 30952,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "4c777571-4dd9-434c-8955-9f489a79add8",
+        "created_at": "2023-10-07T09:36:01.995Z",
+        "updated_at": "2023-10-07T11:57:05.125Z",
+        "availability_status": true,
+        "dish_description": "Mouthwatering vegetarian burger topped with avocado",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.22305694944225252,
+        "dish_calories": 67239,
+        "dish_ingredients": "Black bean patty, lettuce, tomato, avocado",
+        "dish_preparation_time": 61717,
+        "dish_name": "Vegetarian Avocado Burger",
+        "dish_allergens": "Contains soy",
+        "dish_spiciness_level": 54800,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "c00dbac3-1904-4dad-89ac-ba53e3ebe258",
+        "created_at": "2023-10-07T15:44:14.520Z",
+        "updated_at": "2023-10-07T10:04:13.196Z",
+        "availability_status": true,
+        "dish_description": "Decadent chocolate lava cake with a scoop of vanilla ice cream",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.6985586632508785,
+        "dish_calories": 68253,
+        "dish_ingredients": "Flour, sugar, cocoa powder, eggs, vanilla",
+        "dish_preparation_time": 69482,
+        "dish_name": "Chocolate Lava Cake",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 88844,
+        "dish_vegan": false,
+        "dish_gluten_free": true
+      }
+    ],
+    "menu": [
+      {
+        "id": "cc9fce3b-6cfc-45fa-a655-42e1e2b404ec",
+        "created_at": "2023-10-07T09:38:50.286Z",
+        "updated_at": "2023-10-07T22:25:18.573Z",
+        "availability_status": true,
+        "description": "A selection of our finest dishes",
+        "name": "Chef's Specials",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "752e0eab-c889-41d6-a379-131aad05ad09",
+        "created_at": "2023-10-07T08:09:07.847Z",
+        "updated_at": "2023-10-07T18:22:45.422Z",
+        "availability_status": false,
+        "description": "Chef's recommendations for the season",
+        "name": "Seasonal Delights",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5a208102-8860-4b2d-b9f4-62cd2b707734",
+        "created_at": "2023-10-07T11:47:37.935Z",
+        "updated_at": "2023-10-07T09:25:40.604Z",
+        "availability_status": true,
+        "description": "A variety of options to suit every palate",
+        "name": "Taste of Variety",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3598352e-3a2a-49c4-8142-9a9892d6379a",
+        "created_at": "2023-10-07T15:32:39.358Z",
+        "updated_at": "2023-10-07T21:48:12.233Z",
+        "availability_status": true,
+        "description": "Special menu for the weekend",
+        "name": "Weekend Specials",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ab244cf9-8892-4fe7-b83a-6dfd5a512857",
+        "created_at": "2023-10-07T19:50:28.194Z",
+        "updated_at": "2023-10-07T10:03:20.631Z",
+        "availability_status": false,
+        "description": "Indulge in our signature creations",
+        "name": "Signature Creations",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "24ce83fd-9291-449e-b4d3-76622cd4145a",
+        "created_at": "2023-10-08T04:14:52.779Z",
+        "updated_at": "2023-10-07T11:57:56.171Z",
+        "description": "Delicious dishes from around the world",
+        "name": "Global Flavors",
+        "tags": "global",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF5733",
+        "menu_id": "ab244cf9-8892-4fe7-b83a-6dfd5a512857"
+      },
+      {
+        "id": "9f433126-b3e3-4c27-b4d4-b4cc1d0c6ded",
+        "created_at": "2023-10-07T19:35:36.652Z",
+        "updated_at": "2023-10-08T02:14:14.029Z",
+        "description": "Healthy options made with fresh ingredients",
+        "name": "Healthy Choices",
+        "tags": "healthy",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#33FF57",
+        "menu_id": "5a208102-8860-4b2d-b9f4-62cd2b707734"
+      },
+      {
+        "id": "f320e4c4-327e-4135-9408-33e6855668df",
+        "created_at": "2023-10-07T10:48:38.535Z",
+        "updated_at": "2023-10-07T17:40:05.685Z",
+        "description": "Indulgent treats for the food lover",
+        "name": "Indulgent Treats",
+        "tags": "indulgent",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#5733FF",
+        "menu_id": "5a208102-8860-4b2d-b9f4-62cd2b707734"
+      },
+      {
+        "id": "b406d2e5-26c6-4178-8b44-9c65cceb4316",
+        "created_at": "2023-10-07T23:49:32.310Z",
+        "updated_at": "2023-10-07T12:14:36.520Z",
+        "description": "Vegetarian and vegan-friendly choices",
+        "name": "Vegetarian Delights",
+        "tags": "vegetarian",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF33A6",
+        "menu_id": "752e0eab-c889-41d6-a379-131aad05ad09"
+      },
+      {
+        "id": "dae9177e-2f75-4f10-8655-5e5039f6dfc4",
+        "created_at": "2023-10-08T04:53:11.084Z",
+        "updated_at": "2023-10-07T22:55:14.717Z",
+        "description": "Comfort food classics with a twist",
+        "name": "Comfort Food Classics",
+        "tags": "comfort",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#33A6FF",
+        "menu_id": "ab244cf9-8892-4fe7-b83a-6dfd5a512857"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "9b9da4b8-16f6-4e32-8a05-863bf9b6ddf3",
+        "created_at": "2023-10-07T18:55:01.652Z",
+        "updated_at": "2023-10-07T07:59:11.041Z",
+        "description": "A curated selection of dishes for the menu",
+        "availability_status": true,
+        "dish_category_id": "dae9177e-2f75-4f10-8655-5e5039f6dfc4",
+        "menu_id": "3598352e-3a2a-49c4-8142-9a9892d6379a"
+      },
+      {
+        "id": "86135d6a-9f74-4b94-8610-5d0dae1a4197",
+        "created_at": "2023-10-07T12:38:12.421Z",
+        "updated_at": "2023-10-07T15:16:26.689Z",
+        "description": "tempore iure perspiciatis",
+        "availability_status": false,
+        "dish_category_id": "dae9177e-2f75-4f10-8655-5e5039f6dfc4",
+        "menu_id": "ab244cf9-8892-4fe7-b83a-6dfd5a512857"
+      },
+      {
+        "id": "311b208e-f2ee-4c93-8b23-53efd6a92acf",
+        "created_at": "2023-10-07T17:19:14.047Z",
+        "updated_at": "2023-10-07T23:04:31.569Z",
+        "description": "corporis cupiditate modi",
+        "availability_status": true,
+        "dish_category_id": "dae9177e-2f75-4f10-8655-5e5039f6dfc4",
+        "menu_id": "3598352e-3a2a-49c4-8142-9a9892d6379a"
+      },
+      {
+        "id": "c895004a-59dc-4f39-ab3e-ef9548d18829",
+        "created_at": "2023-10-07T08:03:30.359Z",
+        "updated_at": "2023-10-07T16:24:55.347Z",
+        "description": "non distinctio ad",
+        "availability_status": true,
+        "dish_category_id": "24ce83fd-9291-449e-b4d3-76622cd4145a",
+        "menu_id": "cc9fce3b-6cfc-45fa-a655-42e1e2b404ec"
+      },
+      {
+        "id": "4ad81ce1-03e3-4c4d-ba89-28810619b632",
+        "created_at": "2023-10-08T03:30:19.690Z",
+        "updated_at": "2023-10-07T08:06:48.232Z",
+        "description": "animi inventore officiis",
+        "availability_status": false,
+        "dish_category_id": "9f433126-b3e3-4c27-b4d4-b4cc1d0c6ded",
+        "menu_id": "ab244cf9-8892-4fe7-b83a-6dfd5a512857"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "fdc2aacb-bae8-4f9b-8c4b-ddcaed40047e",
+        "created_at": "2023-10-07T18:44:21.562Z",
+        "updated_at": "2023-10-07T23:30:04.922Z",
+        "availability_status": "Available",
+        "dish_category_id": "b406d2e5-26c6-4178-8b44-9c65cceb4316",
+        "menu_item_id": "4c777571-4dd9-434c-8955-9f489a79add8"
+      },
+      {
+        "id": "a5708e2d-a068-4747-9c9c-8756363f5942",
+        "created_at": "2023-10-07T13:13:40.584Z",
+        "updated_at": "2023-10-07T17:01:52.284Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "f320e4c4-327e-4135-9408-33e6855668df",
+        "menu_item_id": "4c777571-4dd9-434c-8955-9f489a79add8"
+      },
+      {
+        "id": "7a1998a4-fee5-4590-b6a6-a11573a0f918",
+        "created_at": "2023-10-07T18:58:49.885Z",
+        "updated_at": "2023-10-07T19:14:09.746Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "dae9177e-2f75-4f10-8655-5e5039f6dfc4",
+        "menu_item_id": "4bf3147d-a821-4957-8132-7760fb18ec9c"
+      },
+      {
+        "id": "a980a1da-4588-4d26-b8c0-92cd3618d87e",
+        "created_at": "2023-10-07T21:07:13.154Z",
+        "updated_at": "2023-10-07T12:37:52.812Z",
+        "availability_status": "Limited Stock",
+        "dish_category_id": "f320e4c4-327e-4135-9408-33e6855668df",
+        "menu_item_id": "31fc217b-9b10-4ce5-ae14-c475e8377b29"
+      },
+      {
+        "id": "9b839e59-8351-4b45-bca2-0195c383cda9",
+        "created_at": "2023-10-08T03:58:57.094Z",
+        "updated_at": "2023-10-07T22:19:10.861Z",
+        "availability_status": "Out of Season",
+        "dish_category_id": "24ce83fd-9291-449e-b4d3-76622cd4145a",
+        "menu_item_id": "4c777571-4dd9-434c-8955-9f489a79add8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1f0e2553-0343-432c-ad4c-14b58402fbfc",
+        "email": "Luciano.Haley99@roq.tech",
+        "firstName": "Jorge",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/605.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9075914f-8f23-4067-8a26-e43438989f77",
+        "email": "Collin74@roq.tech",
+        "firstName": "Dulce",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1792291",
+        "tenantId": null
+      },
+      {
+        "reference": "89c724ae-57de-4979-a7f7-f6cf238da6e5",
+        "email": "Lorenza76@roq.tech",
+        "firstName": "Vena",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59229188",
+        "tenantId": null
+      },
+      {
+        "reference": "9a134060-7d04-4aea-a93b-1c9087caedc8",
+        "email": "Tad_Schaefer6@roq.tech",
+        "firstName": "David",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/541.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eac04917-b20a-4463-8716-cb583f88ffc1",
+        "email": "Maddison_Powlowski95@roq.tech",
+        "firstName": "Ruby",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19719376",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "5e01224a-2544-4cd2-a032-9d67c9018e3d",
+        "created_at": "2023-10-08T00:28:06.256Z",
+        "updated_at": "2023-10-07T07:40:25.991Z",
+        "availability_status": false,
+        "dish_description": "A flavorful dish with a perfect blend of spices",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.892867884831503,
+        "dish_calories": 75404,
+        "dish_ingredients": "Chicken, tomatoes, onions, spices",
+        "dish_preparation_time": 28715,
+        "dish_name": "Spicy Chicken Curry",
+        "dish_allergens": "Gluten, dairy",
+        "dish_spiciness_level": 57572,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "5d30607a-5fb6-4192-87c9-3afdf7f9973a",
+        "created_at": "2023-10-08T02:02:56.593Z",
+        "updated_at": "2023-10-07T10:01:11.695Z",
+        "availability_status": false,
+        "dish_description": "A delicious and creamy dish with a hint of garlic",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.8291695746593177,
+        "dish_calories": 44844,
+        "dish_ingredients": "Pasta, cream, garlic, Parmesan cheese",
+        "dish_preparation_time": 90244,
+        "dish_name": "Creamy Garlic Pasta",
+        "dish_allergens": "Dairy",
+        "dish_spiciness_level": 86744,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "2cfa8726-a136-4550-b8bb-b2ff3a7e1a9f",
+        "created_at": "2023-10-08T03:57:32.327Z",
+        "updated_at": "2023-10-07T22:08:50.071Z",
+        "availability_status": false,
+        "dish_description": "A savory dish with tender meat and aromatic herbs",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.2571303672157228,
+        "dish_calories": 16064,
+        "dish_ingredients": "Beef, potatoes, carrots, rosemary",
+        "dish_preparation_time": 88439,
+        "dish_name": "Slow-cooked Beef Stew",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 30977,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "791addf5-5993-4841-8f80-02fb10ab28e6",
+        "created_at": "2023-10-07T21:13:00.737Z",
+        "updated_at": "2023-10-07T15:58:32.467Z",
+        "availability_status": false,
+        "dish_description": "A refreshing salad with crisp vegetables and tangy dressing",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.05515206744894385,
+        "dish_calories": 62616,
+        "dish_ingredients": "Lettuce, tomatoes, cucumbers, olives",
+        "dish_preparation_time": 5092,
+        "dish_name": "Greek Salad",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 75305,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "a9719b5d-9e1d-4be9-892e-ea7ca6575200",
+        "created_at": "2023-10-07T11:26:20.518Z",
+        "updated_at": "2023-10-07T19:42:23.098Z",
+        "availability_status": true,
+        "dish_description": "A mouthwatering dessert with a rich chocolate ganache",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.7971104138996452,
+        "dish_calories": 51324,
+        "dish_ingredients": "Chocolate, flour, sugar, eggs",
+        "dish_preparation_time": 63305,
+        "dish_name": "Decadent Chocolate Cake",
+        "dish_allergens": "Gluten, eggs",
+        "dish_spiciness_level": 35470,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      }
+    ],
+    "menu": [
+      {
+        "id": "1226aeee-5db8-4144-b245-c5ed50a7a3a6",
+        "created_at": "2023-10-08T04:49:01.322Z",
+        "updated_at": "2023-10-07T08:01:51.083Z",
+        "availability_status": true,
+        "description": "A curated selection of dishes inspired by international cuisines",
+        "name": "Taste of the World",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "445ed1e9-fb06-4e87-bb2b-f68326734507",
+        "created_at": "2023-10-07T09:04:32.510Z",
+        "updated_at": "2023-10-08T03:43:26.085Z",
+        "availability_status": false,
+        "description": "A seasonal menu showcasing the freshest ingredients",
+        "name": "Seasonal Delights",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "bc1df2d9-e2f2-4078-b6ba-aecdb37f2af2",
+        "created_at": "2023-10-08T03:14:12.471Z",
+        "updated_at": "2023-10-07T19:21:35.982Z",
+        "availability_status": true,
+        "description": "A fusion of traditional and modern flavors",
+        "name": "East Meets West",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "13ca1e87-0334-4fa5-b243-c1056f86e556",
+        "created_at": "2023-10-08T03:51:55.034Z",
+        "updated_at": "2023-10-07T13:28:12.998Z",
+        "availability_status": true,
+        "description": "A vegetarian-friendly menu with plant-based options",
+        "name": "Green Cuisine",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "91834b70-5518-4c33-a980-726f45583a54",
+        "created_at": "2023-10-07T13:34:03.902Z",
+        "updated_at": "2023-10-07T10:41:14.248Z",
+        "availability_status": true,
+        "description": "A menu designed for sharing and socializing",
+        "name": "Shared Plates",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "7b101d1d-0d12-4386-ba51-28b985484301",
+        "created_at": "2023-10-07T22:37:03.421Z",
+        "updated_at": "2023-10-07T05:34:42.650Z",
+        "description": "A collection of dishes inspired by a specific cuisine",
+        "name": "Italian Classics",
+        "tags": "Italian, pasta, pizza",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF5733",
+        "menu_id": "445ed1e9-fb06-4e87-bb2b-f68326734507"
+      },
+      {
+        "id": "ef6886b3-ffab-48c6-ad54-fe0179275ca7",
+        "created_at": "2023-10-07T13:33:35.543Z",
+        "updated_at": "2023-10-08T02:53:39.949Z",
+        "description": "A selection of dishes suitable for special dietary needs",
+        "name": "Gluten-Free Options",
+        "tags": "Gluten-free, vegan, vegetarian",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#4CAF50",
+        "menu_id": "1226aeee-5db8-4144-b245-c5ed50a7a3a6"
+      },
+      {
+        "id": "94d16091-cb0f-45d9-8204-06cbb5b11f06",
+        "created_at": "2023-10-07T20:33:09.346Z",
+        "updated_at": "2023-10-08T05:00:35.660Z",
+        "description": "A variety of dishes with unique flavors and textures",
+        "name": "Taste of Asia",
+        "tags": "Asian, sushi, noodles",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FFC300",
+        "menu_id": "91834b70-5518-4c33-a980-726f45583a54"
+      },
+      {
+        "id": "d4e3fd96-24f9-4e50-bb24-66cb656fdf7d",
+        "created_at": "2023-10-07T20:59:15.733Z",
+        "updated_at": "2023-10-07T05:21:44.450Z",
+        "description": "A range of dishes with different levels of spiciness",
+        "name": "Spicy Delights",
+        "tags": "Spicy, hot, fiery",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#9C27B0",
+        "menu_id": "445ed1e9-fb06-4e87-bb2b-f68326734507"
+      },
+      {
+        "id": "46868d86-40ae-4407-9526-a2dab246834e",
+        "created_at": "2023-10-07T08:19:14.819Z",
+        "updated_at": "2023-10-07T10:33:51.391Z",
+        "description": "A showcase of local and seasonal ingredients",
+        "name": "Farm-to-Table",
+        "tags": "Local, seasonal, fresh",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FF9800",
+        "menu_id": "bc1df2d9-e2f2-4078-b6ba-aecdb37f2af2"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "81568896-358c-4053-81b3-b9591300b4bf",
+        "created_at": "2023-10-08T03:01:07.794Z",
+        "updated_at": "2023-10-07T07:38:18.099Z",
+        "description": "A category of dishes featured in the menu",
+        "availability_status": true,
+        "dish_category_id": "94d16091-cb0f-45d9-8204-06cbb5b11f06",
+        "menu_id": "1226aeee-5db8-4144-b245-c5ed50a7a3a6"
+      },
+      {
+        "id": "c53289fa-6a20-4bc0-a6cf-022cca13e83d",
+        "created_at": "2023-10-07T06:47:14.220Z",
+        "updated_at": "2023-10-07T12:50:11.974Z",
+        "description": "fuga odio repudiandae",
+        "availability_status": true,
+        "dish_category_id": "94d16091-cb0f-45d9-8204-06cbb5b11f06",
+        "menu_id": "1226aeee-5db8-4144-b245-c5ed50a7a3a6"
+      },
+      {
+        "id": "4146f14f-c05f-4a9a-8617-380635cf7960",
+        "created_at": "2023-10-07T20:26:01.565Z",
+        "updated_at": "2023-10-07T23:46:53.485Z",
+        "description": "quae quibusdam ad",
+        "availability_status": true,
+        "dish_category_id": "d4e3fd96-24f9-4e50-bb24-66cb656fdf7d",
+        "menu_id": "bc1df2d9-e2f2-4078-b6ba-aecdb37f2af2"
+      },
+      {
+        "id": "401ac98b-854a-4662-a1f8-3def822f57a4",
+        "created_at": "2023-10-07T12:33:47.321Z",
+        "updated_at": "2023-10-07T14:44:02.837Z",
+        "description": "doloremque dignissimos culpa",
+        "availability_status": true,
+        "dish_category_id": "7b101d1d-0d12-4386-ba51-28b985484301",
+        "menu_id": "91834b70-5518-4c33-a980-726f45583a54"
+      },
+      {
+        "id": "02617b59-8f65-4a04-a9df-05cfbe461930",
+        "created_at": "2023-10-07T21:58:47.104Z",
+        "updated_at": "2023-10-08T02:19:56.007Z",
+        "description": "nulla nulla eligendi",
+        "availability_status": false,
+        "dish_category_id": "7b101d1d-0d12-4386-ba51-28b985484301",
+        "menu_id": "445ed1e9-fb06-4e87-bb2b-f68326734507"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "277cd2f6-08b8-4c1e-8f0e-c09135416b9e",
+        "created_at": "2023-10-08T04:26:06.971Z",
+        "updated_at": "2023-10-07T16:51:34.972Z",
+        "availability_status": "Available",
+        "dish_category_id": "94d16091-cb0f-45d9-8204-06cbb5b11f06",
+        "menu_item_id": "a9719b5d-9e1d-4be9-892e-ea7ca6575200"
+      },
+      {
+        "id": "76d2baf9-12c6-40bd-8165-5b3ed6a595d5",
+        "created_at": "2023-10-07T23:49:20.521Z",
+        "updated_at": "2023-10-07T22:12:42.121Z",
+        "availability_status": "Out of Stock",
+        "dish_category_id": "7b101d1d-0d12-4386-ba51-28b985484301",
+        "menu_item_id": "5d30607a-5fb6-4192-87c9-3afdf7f9973a"
+      },
+      {
+        "id": "af35bc7b-8144-4454-8a7e-45a72cffe238",
+        "created_at": "2023-10-07T09:40:26.260Z",
+        "updated_at": "2023-10-07T15:09:59.325Z",
+        "availability_status": "Limited Availability",
+        "dish_category_id": "ef6886b3-ffab-48c6-ad54-fe0179275ca7",
+        "menu_item_id": "2cfa8726-a136-4550-b8bb-b2ff3a7e1a9f"
+      },
+      {
+        "id": "7dc4a8bf-4a20-4682-a6cf-c35f11d89620",
+        "created_at": "2023-10-08T04:36:42.270Z",
+        "updated_at": "2023-10-07T20:25:40.407Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "94d16091-cb0f-45d9-8204-06cbb5b11f06",
+        "menu_item_id": "791addf5-5993-4841-8f80-02fb10ab28e6"
+      },
+      {
+        "id": "27c8fbc3-4cdb-4b4c-8501-4dc7e7b15607",
+        "created_at": "2023-10-08T00:48:58.362Z",
+        "updated_at": "2023-10-07T11:27:08.626Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "ef6886b3-ffab-48c6-ad54-fe0179275ca7",
+        "menu_item_id": "a9719b5d-9e1d-4be9-892e-ea7ca6575200"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5f20feb5-5bae-4af7-8be0-9ce06db3db92",
+        "email": "Heidi.Kuhlman@roq.tech",
+        "firstName": "Lenore",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73895947",
+        "tenantId": null
+      },
+      {
+        "reference": "0aec0a2e-7693-449b-8d2c-ef3b4717b5f9",
+        "email": "Eladio92@roq.tech",
+        "firstName": "Jewel",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e79b6c80-f216-4b1a-a329-80fb2168ad95",
+        "email": "Sally.Pollich@roq.tech",
+        "firstName": "Van",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47219671",
+        "tenantId": null
+      },
+      {
+        "reference": "2eae7459-2e40-45c4-8e1d-15da760cca96",
+        "email": "Veronica_Bednar@roq.tech",
+        "firstName": "Izabella",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31384753",
+        "tenantId": null
+      },
+      {
+        "reference": "a4dbc8e5-b5a7-452b-90d7-58826ac3a668",
+        "email": "Ansley9@roq.tech",
+        "firstName": "Ollie",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65541808",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "3a0202c4-72a3-4f39-9019-7d57a8306ce9",
+        "created_at": "2023-10-07T12:31:17.366Z",
+        "updated_at": "2023-10-07T09:27:36.339Z",
+        "availability_status": false,
+        "dish_description": "A delicious and flavorful dish",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.43313236837275326,
+        "dish_calories": 96021,
+        "dish_ingredients": "Fresh tomatoes, basil, mozzarella",
+        "dish_preparation_time": 27467,
+        "dish_name": "Caprese Salad",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 61409,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "cc3a5e4e-8c7a-43ef-9ec1-12992aae66fa",
+        "created_at": "2023-10-07T11:56:30.219Z",
+        "updated_at": "2023-10-07T12:42:16.932Z",
+        "availability_status": true,
+        "dish_description": "A mouthwatering combination of flavors",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.6218200356233865,
+        "dish_calories": 75865,
+        "dish_ingredients": "Grilled chicken, mixed greens, avocado",
+        "dish_preparation_time": 68593,
+        "dish_name": "Grilled Chicken Salad",
+        "dish_allergens": "Contains nuts",
+        "dish_spiciness_level": 98544,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "87b14643-1881-469b-bb2d-ea334f4683ae",
+        "created_at": "2023-10-07T16:01:02.561Z",
+        "updated_at": "2023-10-07T09:02:42.676Z",
+        "availability_status": true,
+        "dish_description": "A savory dish with a hint of spice",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.6878023715689778,
+        "dish_calories": 47691,
+        "dish_ingredients": "Pasta, garlic, olive oil, parmesan",
+        "dish_preparation_time": 62949,
+        "dish_name": "Pasta Aglio e Olio",
+        "dish_allergens": "Gluten-free",
+        "dish_spiciness_level": 95244,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "e62fa48a-a17c-4813-bc1b-b5e34bd96010",
+        "created_at": "2023-10-07T11:25:38.645Z",
+        "updated_at": "2023-10-07T08:56:19.138Z",
+        "availability_status": true,
+        "dish_description": "A refreshing and light dish",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.4882116764783859,
+        "dish_calories": 64879,
+        "dish_ingredients": "Salmon, lemon, dill, roasted potatoes",
+        "dish_preparation_time": 89157,
+        "dish_name": "Grilled Salmon",
+        "dish_allergens": "Vegetarian",
+        "dish_spiciness_level": 11996,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "35e79973-a0ba-4d12-9619-cfed4f1d0360",
+        "created_at": "2023-10-07T13:00:34.413Z",
+        "updated_at": "2023-10-07T16:12:42.698Z",
+        "availability_status": false,
+        "dish_description": "A rich and indulgent treat",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.5901719231624156,
+        "dish_calories": 50225,
+        "dish_ingredients": "Chocolate, caramel, sea salt",
+        "dish_preparation_time": 28903,
+        "dish_name": "Salted Caramel Chocolate Tart",
+        "dish_allergens": "Contains shellfish",
+        "dish_spiciness_level": 80108,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      }
+    ],
+    "menu": [
+      {
+        "id": "d2bb03ae-7d12-48e5-a835-4485e75fae86",
+        "created_at": "2023-10-07T19:00:13.803Z",
+        "updated_at": "2023-10-07T23:06:33.300Z",
+        "availability_status": true,
+        "description": "Explore our diverse menu offering a wide range of flavors",
+        "name": "Tasting Menu",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4febf758-1ce1-4cc7-abe5-6d8e6e16e50a",
+        "created_at": "2023-10-07T22:21:25.825Z",
+        "updated_at": "2023-10-07T15:42:03.614Z",
+        "availability_status": false,
+        "description": "Indulge in our carefully curated menu featuring the finest ingredients",
+        "name": "Chef's Specials",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "51898c07-f7ab-4c8d-83e3-4cdd52eadcf2",
+        "created_at": "2023-10-07T19:36:45.783Z",
+        "updated_at": "2023-10-07T21:27:00.367Z",
+        "availability_status": true,
+        "description": "Experience a culinary journey with our exquisite menu options",
+        "name": "Vegetarian Delights",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "02a4bb52-f10c-44d5-8e0c-bd42bf936c4a",
+        "created_at": "2023-10-07T13:23:41.398Z",
+        "updated_at": "2023-10-07T07:34:08.253Z",
+        "availability_status": true,
+        "description": "Savor the flavors of our seasonal menu inspired by local ingredients",
+        "name": "Seafood Extravaganza",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7ef68740-a84a-4bf8-a115-ac0180174706",
+        "created_at": "2023-10-07T23:47:12.128Z",
+        "updated_at": "2023-10-07T23:15:07.075Z",
+        "availability_status": false,
+        "description": "Discover a fusion of international cuisines in our menu",
+        "name": "Gourmet Burgers",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "885ab25e-b78a-4eae-be95-1c9369580133",
+        "created_at": "2023-10-07T22:19:16.591Z",
+        "updated_at": "2023-10-07T14:20:14.525Z",
+        "description": "Explore a variety of dishes from different cuisines",
+        "name": "Appetizers",
+        "tags": "Vegetarian",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF5733",
+        "menu_id": "51898c07-f7ab-4c8d-83e3-4cdd52eadcf2"
+      },
+      {
+        "id": "7264fc2d-6f07-4a83-94a4-193e100a5b1e",
+        "created_at": "2023-10-07T11:20:29.511Z",
+        "updated_at": "2023-10-07T06:41:45.252Z",
+        "description": "Discover our signature dishes crafted with passion",
+        "name": "Main Courses",
+        "tags": "Gluten-free",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#33FFA8",
+        "menu_id": "51898c07-f7ab-4c8d-83e3-4cdd52eadcf2"
+      },
+      {
+        "id": "9305fe02-5254-4bd1-a015-cfa1e92a3eac",
+        "created_at": "2023-10-07T11:25:08.569Z",
+        "updated_at": "2023-10-08T04:19:40.236Z",
+        "description": "Indulge in our delectable creations made with the finest ingredients",
+        "name": "Desserts",
+        "tags": "Spicy",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#3366FF",
+        "menu_id": "4febf758-1ce1-4cc7-abe5-6d8e6e16e50a"
+      },
+      {
+        "id": "962de0db-2cdf-4401-9c68-d2bde666efc9",
+        "created_at": "2023-10-07T19:01:05.422Z",
+        "updated_at": "2023-10-08T00:59:22.692Z",
+        "description": "Experience a culinary adventure with our diverse dish selection",
+        "name": "Beverages",
+        "tags": "Family-friendly",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF33B4",
+        "menu_id": "d2bb03ae-7d12-48e5-a835-4485e75fae86"
+      },
+      {
+        "id": "f1d9a219-8e2e-49a1-9a06-cdaa63ad69ee",
+        "created_at": "2023-10-07T07:57:56.989Z",
+        "updated_at": "2023-10-07T08:28:37.327Z",
+        "description": "Savor the flavors of our carefully curated dish category",
+        "name": "Specialty Dishes",
+        "tags": "Vegan",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FFC933",
+        "menu_id": "7ef68740-a84a-4bf8-a115-ac0180174706"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "56ffe300-20cd-4c10-9b4e-320e0eaea416",
+        "created_at": "2023-10-07T14:18:45.260Z",
+        "updated_at": "2023-10-07T16:21:49.402Z",
+        "description": "A selection of dishes from our menu category",
+        "availability_status": false,
+        "dish_category_id": "9305fe02-5254-4bd1-a015-cfa1e92a3eac",
+        "menu_id": "51898c07-f7ab-4c8d-83e3-4cdd52eadcf2"
+      },
+      {
+        "id": "c3f5e29c-3b1c-4a26-a781-eadc5f655a11",
+        "created_at": "2023-10-08T00:50:29.909Z",
+        "updated_at": "2023-10-07T06:58:54.670Z",
+        "description": "A combination of flavors from different cuisines",
+        "availability_status": false,
+        "dish_category_id": "7264fc2d-6f07-4a83-94a4-193e100a5b1e",
+        "menu_id": "51898c07-f7ab-4c8d-83e3-4cdd52eadcf2"
+      },
+      {
+        "id": "cf255317-d119-4253-9dd0-574474eeac59",
+        "created_at": "2023-10-07T13:58:11.393Z",
+        "updated_at": "2023-10-07T18:15:21.168Z",
+        "description": "A curated collection of dishes to satisfy your cravings",
+        "availability_status": true,
+        "dish_category_id": "9305fe02-5254-4bd1-a015-cfa1e92a3eac",
+        "menu_id": "02a4bb52-f10c-44d5-8e0c-bd42bf936c4a"
+      },
+      {
+        "id": "c93981d1-f834-499f-9011-d49f5881fd41",
+        "created_at": "2023-10-07T18:41:51.536Z",
+        "updated_at": "2023-10-07T10:19:41.132Z",
+        "description": "A fusion of international cuisines in one category",
+        "availability_status": true,
+        "dish_category_id": "962de0db-2cdf-4401-9c68-d2bde666efc9",
+        "menu_id": "d2bb03ae-7d12-48e5-a835-4485e75fae86"
+      },
+      {
+        "id": "3c218c83-fb2a-4f17-8720-7253cba3895e",
+        "created_at": "2023-10-07T13:27:05.830Z",
+        "updated_at": "2023-10-07T16:00:00.781Z",
+        "description": "A variety of options to suit every palate",
+        "availability_status": false,
+        "dish_category_id": "f1d9a219-8e2e-49a1-9a06-cdaa63ad69ee",
+        "menu_id": "d2bb03ae-7d12-48e5-a835-4485e75fae86"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "25184cc5-03d5-4e2c-8f2b-0ad6c3b6f403",
+        "created_at": "2023-10-07T17:53:01.661Z",
+        "updated_at": "2023-10-07T08:34:05.989Z",
+        "availability_status": "Available",
+        "dish_category_id": "962de0db-2cdf-4401-9c68-d2bde666efc9",
+        "menu_item_id": "3a0202c4-72a3-4f39-9019-7d57a8306ce9"
+      },
+      {
+        "id": "ad9357a6-d92f-4312-a544-f4b0ec78a7c2",
+        "created_at": "2023-10-07T17:48:08.707Z",
+        "updated_at": "2023-10-07T20:04:38.008Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "9305fe02-5254-4bd1-a015-cfa1e92a3eac",
+        "menu_item_id": "35e79973-a0ba-4d12-9619-cfed4f1d0360"
+      },
+      {
+        "id": "c4d9836c-e813-4ed1-817a-04fdff76c260",
+        "created_at": "2023-10-07T11:56:03.823Z",
+        "updated_at": "2023-10-07T08:14:51.886Z",
+        "availability_status": "Limited Stock",
+        "dish_category_id": "7264fc2d-6f07-4a83-94a4-193e100a5b1e",
+        "menu_item_id": "3a0202c4-72a3-4f39-9019-7d57a8306ce9"
+      },
+      {
+        "id": "823033e3-c926-4d44-9683-01e7992a41e3",
+        "created_at": "2023-10-07T21:05:29.533Z",
+        "updated_at": "2023-10-07T22:12:27.333Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "9305fe02-5254-4bd1-a015-cfa1e92a3eac",
+        "menu_item_id": "cc3a5e4e-8c7a-43ef-9ec1-12992aae66fa"
+      },
+      {
+        "id": "8d3adff1-1a59-422c-9571-87029b0edbd4",
+        "created_at": "2023-10-07T07:29:45.683Z",
+        "updated_at": "2023-10-07T17:04:12.900Z",
+        "availability_status": "Seasonal Special",
+        "dish_category_id": "962de0db-2cdf-4401-9c68-d2bde666efc9",
+        "menu_item_id": "cc3a5e4e-8c7a-43ef-9ec1-12992aae66fa"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "158d28a8-3c1d-450a-89dc-f209c37fac16",
+        "email": "Vito.Lebsack@roq.tech",
+        "firstName": "Ardella",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1185.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3e930e6-f3bb-4f71-9b65-fa95d7ace330",
+        "email": "Arielle74@roq.tech",
+        "firstName": "Rae",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/344.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1e4d13b-9d27-42fd-a354-886df9350ecc",
+        "email": "Sonny79@roq.tech",
+        "firstName": "Claudia",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70711254",
+        "tenantId": null
+      },
+      {
+        "reference": "a2d9cb37-7231-4e03-a143-1cf04df26165",
+        "email": "Tobin72@roq.tech",
+        "firstName": "Alden",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4346194",
+        "tenantId": null
+      },
+      {
+        "reference": "f5896d4c-05df-4533-a421-e523a42b49bb",
+        "email": "Savanna15@roq.tech",
+        "firstName": "Barton",
+        "lastName": "Keebler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92682689",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "13ce78e6-f68f-4c48-a722-2782b415cdd3",
+        "created_at": "2023-10-07T19:50:08.723Z",
+        "updated_at": "2023-10-07T13:31:59.620Z",
+        "availability_status": true,
+        "dish_description": "Tender grilled chicken served with a side of roasted vegetables",
+        "dish_image_url": "dish1.jpg",
+        "dish_price": 0.8846930058207363,
+        "dish_calories": 90973,
+        "dish_ingredients": "Chicken, broccoli, carrots, garlic, olive oil",
+        "dish_preparation_time": 71241,
+        "dish_name": "Grilled Chicken with Roasted Vegetables",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 94256,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "aca4dfae-602c-4898-a91d-fe3d921aac98",
+        "created_at": "2023-10-07T18:19:07.443Z",
+        "updated_at": "2023-10-07T18:20:55.067Z",
+        "availability_status": true,
+        "dish_description": "Creamy mushroom risotto topped with parmesan cheese",
+        "dish_image_url": "dish2.jpg",
+        "dish_price": 0.22267653956077993,
+        "dish_calories": 43256,
+        "dish_ingredients": "Arborio rice, mushrooms, onions, vegetable broth",
+        "dish_preparation_time": 76141,
+        "dish_name": "Mushroom Risotto",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 1510,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "8d30c90a-de6f-4991-af96-cef9c484667b",
+        "created_at": "2023-10-07T09:50:42.828Z",
+        "updated_at": "2023-10-08T05:15:17.453Z",
+        "availability_status": true,
+        "dish_description": "Juicy beef burger with melted cheddar and crispy bacon",
+        "dish_image_url": "dish3.jpg",
+        "dish_price": 0.8860358304809779,
+        "dish_calories": 29424,
+        "dish_ingredients": "Beef patty, cheddar cheese, bacon, lettuce, tomato",
+        "dish_preparation_time": 83195,
+        "dish_name": "Bacon Cheeseburger",
+        "dish_allergens": "Contains gluten",
+        "dish_spiciness_level": 82035,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "99dd7017-4939-41b3-96ca-8a236ea968a5",
+        "created_at": "2023-10-07T23:54:09.834Z",
+        "updated_at": "2023-10-07T06:53:18.625Z",
+        "availability_status": false,
+        "dish_description": "Fresh salmon fillet drizzled with lemon butter sauce",
+        "dish_image_url": "dish4.jpg",
+        "dish_price": 0.2032827080693096,
+        "dish_calories": 19401,
+        "dish_ingredients": "Salmon fillet, lemon, butter, dill, salt, pepper",
+        "dish_preparation_time": 29622,
+        "dish_name": "Lemon Butter Salmon",
+        "dish_allergens": "Contains nuts",
+        "dish_spiciness_level": 86842,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "a2720050-c9f1-435f-9969-3bcf6a0db0b6",
+        "created_at": "2023-10-07T09:58:10.569Z",
+        "updated_at": "2023-10-07T20:41:04.829Z",
+        "availability_status": true,
+        "dish_description": "Homemade lasagna with layers of rich meat sauce and gooey cheese",
+        "dish_image_url": "dish5.jpg",
+        "dish_price": 0.012261035153642297,
+        "dish_calories": 3601,
+        "dish_ingredients": "Ground beef, lasagna noodles, tomato sauce, mozzarella cheese",
+        "dish_preparation_time": 65795,
+        "dish_name": "Classic Lasagna",
+        "dish_allergens": "Contains shellfish",
+        "dish_spiciness_level": 44177,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      }
+    ],
+    "menu": [
+      {
+        "id": "34c6d6c5-a8e2-4b54-b39b-518ac5e041ec",
+        "created_at": "2023-10-07T20:15:10.266Z",
+        "updated_at": "2023-10-07T18:13:54.305Z",
+        "availability_status": false,
+        "description": "A selection of mouthwatering dishes for every palate",
+        "name": "Taste of Italy",
+        "image": "menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cc8d8bed-d16f-4002-b0f4-41fed3e5ae34",
+        "created_at": "2023-10-07T06:03:14.727Z",
+        "updated_at": "2023-10-07T15:13:27.557Z",
+        "availability_status": true,
+        "description": "Indulge in our chef's specially curated menu",
+        "name": "Asian Fusion Delights",
+        "image": "menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "500db4f6-46a9-4cbb-89b4-7add5c605aeb",
+        "created_at": "2023-10-07T15:28:04.870Z",
+        "updated_at": "2023-10-07T10:49:22.235Z",
+        "availability_status": true,
+        "description": "Discover a fusion of flavors in our signature dishes",
+        "name": "Vegetarian Paradise",
+        "image": "menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d7ff3c05-0b81-452d-b1b5-3c04454bd4d0",
+        "created_at": "2023-10-08T00:58:07.093Z",
+        "updated_at": "2023-10-07T18:33:00.504Z",
+        "availability_status": false,
+        "description": "Experience a culinary journey with our unique menu offerings",
+        "name": "Seafood Extravaganza",
+        "image": "menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e87b4d5b-a2ae-4060-a372-067ba4c54542",
+        "created_at": "2023-10-07T18:12:34.830Z",
+        "updated_at": "2023-10-08T02:33:50.018Z",
+        "availability_status": true,
+        "description": "Savor the best of local and international cuisine",
+        "name": "Comfort Food Classics",
+        "image": "menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "269d88ab-da90-435d-a1aa-5ad46d761c2e",
+        "created_at": "2023-10-07T05:22:23.190Z",
+        "updated_at": "2023-10-08T01:16:28.863Z",
+        "description": "Explore a variety of dishes from different cuisines",
+        "name": "Appetizers",
+        "tags": "#delicious",
+        "dish_category_image": "category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FFC107",
+        "menu_id": "34c6d6c5-a8e2-4b54-b39b-518ac5e041ec"
+      },
+      {
+        "id": "db651eef-d5c1-4b82-a28d-924be8995055",
+        "created_at": "2023-10-07T15:11:56.765Z",
+        "updated_at": "2023-10-07T13:17:29.298Z",
+        "description": "Indulge in our chef's innovative creations",
+        "name": "Main Courses",
+        "tags": "#foodie",
+        "dish_category_image": "category2.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#4CAF50",
+        "menu_id": "cc8d8bed-d16f-4002-b0f4-41fed3e5ae34"
+      },
+      {
+        "id": "1cd3dc1f-124f-4af4-8a97-8c2e903a1764",
+        "created_at": "2023-10-07T17:51:07.238Z",
+        "updated_at": "2023-10-07T09:28:26.487Z",
+        "description": "Discover the perfect dish for any occasion",
+        "name": "Desserts",
+        "tags": "#instafood",
+        "dish_category_image": "category3.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FF5722",
+        "menu_id": "e87b4d5b-a2ae-4060-a372-067ba4c54542"
+      },
+      {
+        "id": "31e1d30e-40b8-43f1-aa6a-4c8f9c271b42",
+        "created_at": "2023-10-07T07:16:28.620Z",
+        "updated_at": "2023-10-08T03:25:49.099Z",
+        "description": "Experience a blend of flavors in our unique dishes",
+        "name": "Beverages",
+        "tags": "#yum",
+        "dish_category_image": "category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#9C27B0",
+        "menu_id": "cc8d8bed-d16f-4002-b0f4-41fed3e5ae34"
+      },
+      {
+        "id": "a47d283b-cf2f-41bb-9a7f-c90562dfa61e",
+        "created_at": "2023-10-07T23:44:40.935Z",
+        "updated_at": "2023-10-07T20:14:38.717Z",
+        "description": "Savor the best of local and international cuisine",
+        "name": "Specialty Dishes",
+        "tags": "#foodporn",
+        "dish_category_image": "category5.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#2196F3",
+        "menu_id": "500db4f6-46a9-4cbb-89b4-7add5c605aeb"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "4d2d880e-8d42-42d0-83ea-163efb8d1b0f",
+        "created_at": "2023-10-07T20:22:37.550Z",
+        "updated_at": "2023-10-07T12:22:16.048Z",
+        "description": "A selection of dishes that perfectly complement our menu",
+        "availability_status": true,
+        "dish_category_id": "31e1d30e-40b8-43f1-aa6a-4c8f9c271b42",
+        "menu_id": "cc8d8bed-d16f-4002-b0f4-41fed3e5ae34"
+      },
+      {
+        "id": "6438bbdc-0f13-4153-be76-c41055cf63d3",
+        "created_at": "2023-10-07T22:34:43.328Z",
+        "updated_at": "2023-10-08T04:13:31.769Z",
+        "description": "Indulge in our chef's recommended dishes",
+        "availability_status": false,
+        "dish_category_id": "31e1d30e-40b8-43f1-aa6a-4c8f9c271b42",
+        "menu_id": "500db4f6-46a9-4cbb-89b4-7add5c605aeb"
+      },
+      {
+        "id": "109a1b5d-7b65-4f3a-ac62-e75847a4c92b",
+        "created_at": "2023-10-07T11:33:17.730Z",
+        "updated_at": "2023-10-07T05:54:40.787Z",
+        "description": "Discover the perfect pairing for your meal",
+        "availability_status": false,
+        "dish_category_id": "269d88ab-da90-435d-a1aa-5ad46d761c2e",
+        "menu_id": "500db4f6-46a9-4cbb-89b4-7add5c605aeb"
+      },
+      {
+        "id": "c1af11ce-6e05-425b-92b1-73c2688bb12c",
+        "created_at": "2023-10-07T08:34:53.872Z",
+        "updated_at": "2023-10-08T03:44:06.572Z",
+        "description": "Experience a harmonious blend of flavors in our menu offerings",
+        "availability_status": false,
+        "dish_category_id": "31e1d30e-40b8-43f1-aa6a-4c8f9c271b42",
+        "menu_id": "500db4f6-46a9-4cbb-89b4-7add5c605aeb"
+      },
+      {
+        "id": "1b89d9ab-9671-4b12-b89c-76699b764b61",
+        "created_at": "2023-10-08T00:38:14.336Z",
+        "updated_at": "2023-10-07T13:42:30.214Z",
+        "description": "Savor the best combination of dishes",
+        "availability_status": true,
+        "dish_category_id": "1cd3dc1f-124f-4af4-8a97-8c2e903a1764",
+        "menu_id": "e87b4d5b-a2ae-4060-a372-067ba4c54542"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "f2fe531e-511b-48d3-9367-2cb321b97bbe",
+        "created_at": "2023-10-07T23:59:53.169Z",
+        "updated_at": "2023-10-07T11:59:26.485Z",
+        "availability_status": "Available",
+        "dish_category_id": "1cd3dc1f-124f-4af4-8a97-8c2e903a1764",
+        "menu_item_id": "99dd7017-4939-41b3-96ca-8a236ea968a5"
+      },
+      {
+        "id": "99e8499c-8ea6-43f0-96d2-ec11399a081e",
+        "created_at": "2023-10-08T04:51:26.479Z",
+        "updated_at": "2023-10-07T11:12:08.616Z",
+        "availability_status": "Out of Stock",
+        "dish_category_id": "269d88ab-da90-435d-a1aa-5ad46d761c2e",
+        "menu_item_id": "8d30c90a-de6f-4991-af96-cef9c484667b"
+      },
+      {
+        "id": "db998341-9d09-4e58-8190-b5c55ebf7a1f",
+        "created_at": "2023-10-07T17:36:50.673Z",
+        "updated_at": "2023-10-07T18:04:56.428Z",
+        "availability_status": "Limited Availability",
+        "dish_category_id": "db651eef-d5c1-4b82-a28d-924be8995055",
+        "menu_item_id": "a2720050-c9f1-435f-9969-3bcf6a0db0b6"
+      },
+      {
+        "id": "9b89b111-6569-49cf-bdee-31fc56a9b944",
+        "created_at": "2023-10-08T04:36:18.892Z",
+        "updated_at": "2023-10-08T01:55:29.465Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "db651eef-d5c1-4b82-a28d-924be8995055",
+        "menu_item_id": "a2720050-c9f1-435f-9969-3bcf6a0db0b6"
+      },
+      {
+        "id": "dccf6905-c2cf-4351-813a-96dcca383f69",
+        "created_at": "2023-10-08T04:03:03.365Z",
+        "updated_at": "2023-10-07T14:09:14.923Z",
+        "availability_status": "Seasonal Special",
+        "dish_category_id": "a47d283b-cf2f-41bb-9a7f-c90562dfa61e",
+        "menu_item_id": "aca4dfae-602c-4898-a91d-fe3d921aac98"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "deee1a68-2ded-4a2f-819b-747077d368fb",
+        "email": "Cesar.Dach21@roq.tech",
+        "firstName": "Dell",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28597411",
+        "tenantId": null
+      },
+      {
+        "reference": "b041b1d4-ba01-4bc1-8c16-9efa08881338",
+        "email": "Theresa.McCullough@roq.tech",
+        "firstName": "Veda",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/503.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0077b8a1-eadf-441a-8ebb-148dbce3102c",
+        "email": "Dave.Erdman@roq.tech",
+        "firstName": "Karina",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29726339",
+        "tenantId": null
+      },
+      {
+        "reference": "713f7a80-d80f-4eca-b2bc-55b302475e1d",
+        "email": "Lessie22@roq.tech",
+        "firstName": "Mireille",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1c951862-ead3-4a13-82d7-8f1e005b7b79",
+        "email": "Rey.Hoeger-Kautzer49@roq.tech",
+        "firstName": "Schuyler",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9397824",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "ebe7a67d-fa20-4bd5-96ac-56905466fd6e",
+        "created_at": "2023-10-07T20:44:11.795Z",
+        "updated_at": "2023-10-07T08:25:36.774Z",
+        "availability_status": false,
+        "dish_description": "Tender grilled chicken served with a side of seasonal vegetables",
+        "dish_image_url": "dish1.jpg",
+        "dish_price": 0.6763019289355725,
+        "dish_calories": 88282,
+        "dish_ingredients": "Chicken, broccoli, carrots, garlic",
+        "dish_preparation_time": 25980,
+        "dish_name": "Grilled Chicken",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 85192,
+        "dish_vegan": false,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "ac44c756-93b3-46a5-a59f-9e8d6dd9f35e",
+        "created_at": "2023-10-08T03:48:20.756Z",
+        "updated_at": "2023-10-07T14:35:04.080Z",
+        "availability_status": false,
+        "dish_description": "Mouthwatering steak cooked to perfection",
+        "dish_image_url": "dish2.jpg",
+        "dish_price": 0.7847845887299627,
+        "dish_calories": 12962,
+        "dish_ingredients": "Beef, potatoes, mushrooms, rosemary",
+        "dish_preparation_time": 28604,
+        "dish_name": "Tender Steak",
+        "dish_allergens": "Contains gluten",
+        "dish_spiciness_level": 13582,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "1d8721ff-4902-4c7b-aa2b-e826873b73c6",
+        "created_at": "2023-10-07T20:24:02.193Z",
+        "updated_at": "2023-10-07T07:34:57.879Z",
+        "availability_status": true,
+        "dish_description": "Freshly baked pizza topped with a variety of toppings",
+        "dish_image_url": "dish3.jpg",
+        "dish_price": 0.745364063186571,
+        "dish_calories": 61516,
+        "dish_ingredients": "Flour, tomatoes, cheese, olives",
+        "dish_preparation_time": 60953,
+        "dish_name": "Margherita Pizza",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 46302,
+        "dish_vegan": false,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "e3d47d6a-11e6-4c86-8745-3e356f716dff",
+        "created_at": "2023-10-07T15:43:55.683Z",
+        "updated_at": "2023-10-08T01:14:15.197Z",
+        "availability_status": true,
+        "dish_description": "Creamy pasta with a rich tomato sauce",
+        "dish_image_url": "dish4.jpg",
+        "dish_price": 0.1077406438998878,
+        "dish_calories": 53028,
+        "dish_ingredients": "Pasta, tomatoes, basil, parmesan",
+        "dish_preparation_time": 4015,
+        "dish_name": "Spaghetti Bolognese",
+        "dish_allergens": "Contains nuts",
+        "dish_spiciness_level": 34356,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "295bab6f-1a3c-41df-a7ba-fa098ea78195",
+        "created_at": "2023-10-07T07:35:59.477Z",
+        "updated_at": "2023-10-07T20:39:54.379Z",
+        "availability_status": true,
+        "dish_description": "Delicious seafood platter with grilled prawns and fish",
+        "dish_image_url": "dish5.jpg",
+        "dish_price": 0.35665788664482534,
+        "dish_calories": 37970,
+        "dish_ingredients": "Prawns, fish, lemon, butter",
+        "dish_preparation_time": 91687,
+        "dish_name": "Seafood Platter",
+        "dish_allergens": "Contains shellfish",
+        "dish_spiciness_level": 72099,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      }
+    ],
+    "menu": [
+      {
+        "id": "7d20e6f7-6575-4b87-868e-767f8c73c968",
+        "created_at": "2023-10-07T09:30:06.286Z",
+        "updated_at": "2023-10-07T20:29:52.629Z",
+        "availability_status": true,
+        "description": "Explore a variety of flavors with our carefully crafted menu",
+        "name": "Chef's Special",
+        "image": "menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "921b9cde-f372-4d1b-aa4c-bd4f0fc5b31e",
+        "created_at": "2023-10-08T03:02:15.386Z",
+        "updated_at": "2023-10-08T01:10:43.286Z",
+        "availability_status": true,
+        "description": "Indulge in a culinary journey with our exquisite dishes",
+        "name": "Taste of Italy",
+        "image": "menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d563a510-6b12-40b9-b9db-823ef58f94a7",
+        "created_at": "2023-10-08T01:01:40.492Z",
+        "updated_at": "2023-10-07T12:40:30.121Z",
+        "availability_status": true,
+        "description": "Experience the perfect blend of taste and presentation",
+        "name": "Asian Fusion",
+        "image": "menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4e3c4888-4547-4ed1-9bc6-f31b49866d11",
+        "created_at": "2023-10-07T18:54:20.547Z",
+        "updated_at": "2023-10-07T15:33:09.714Z",
+        "availability_status": false,
+        "description": "Discover new favorites from our diverse menu options",
+        "name": "Vegetarian Delight",
+        "image": "menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "603aea8c-ffeb-4f51-868b-54805850d4ca",
+        "created_at": "2023-10-07T18:56:01.453Z",
+        "updated_at": "2023-10-07T22:33:00.543Z",
+        "availability_status": false,
+        "description": "Savor the finest ingredients in our signature dishes",
+        "name": "Seafood Extravaganza",
+        "image": "menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "43cb7bdf-1c26-4b4d-afc6-6c017fd3bf98",
+        "created_at": "2023-10-08T01:53:53.328Z",
+        "updated_at": "2023-10-07T17:46:10.230Z",
+        "description": "Satisfy your cravings with our delectable dishes",
+        "name": "Appetizers",
+        "tags": "Savory",
+        "dish_category_image": "category1.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FFC300",
+        "menu_id": "4e3c4888-4547-4ed1-9bc6-f31b49866d11"
+      },
+      {
+        "id": "84ff3114-f122-412b-9527-70d24b4260d7",
+        "created_at": "2023-10-07T12:29:22.414Z",
+        "updated_at": "2023-10-07T18:10:41.612Z",
+        "description": "Experience the essence of fine dining with our curated menu",
+        "name": "Main Course",
+        "tags": "Spicy",
+        "dish_category_image": "category2.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FF5733",
+        "menu_id": "4e3c4888-4547-4ed1-9bc6-f31b49866d11"
+      },
+      {
+        "id": "e42a7bfc-9f02-4782-83c3-e9f4baf99dcf",
+        "created_at": "2023-10-07T07:04:00.173Z",
+        "updated_at": "2023-10-07T22:58:03.442Z",
+        "description": "Discover the perfect balance of flavors in our dishes",
+        "name": "Desserts",
+        "tags": "Sweet",
+        "dish_category_image": "category3.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#C70039",
+        "menu_id": "603aea8c-ffeb-4f51-868b-54805850d4ca"
+      },
+      {
+        "id": "af0a28ca-54a2-4ee9-9a8b-228bbc65555b",
+        "created_at": "2023-10-07T06:31:20.966Z",
+        "updated_at": "2023-10-07T15:09:30.351Z",
+        "description": "Indulge in a culinary adventure with our diverse cuisine",
+        "name": "Beverages",
+        "tags": "Refreshing",
+        "dish_category_image": "category4.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#900C3F",
+        "menu_id": "921b9cde-f372-4d1b-aa4c-bd4f0fc5b31e"
+      },
+      {
+        "id": "2843b865-a12f-4e4a-ab9f-f328e4259c85",
+        "created_at": "2023-10-08T03:25:20.461Z",
+        "updated_at": "2023-10-08T00:06:12.457Z",
+        "description": "Elevate your dining experience with our exquisite dishes",
+        "name": "Specials",
+        "tags": "Unique",
+        "dish_category_image": "category5.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#581845",
+        "menu_id": "603aea8c-ffeb-4f51-868b-54805850d4ca"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "93186ee7-79f0-4761-bdac-1a518259ff59",
+        "created_at": "2023-10-07T21:40:39.951Z",
+        "updated_at": "2023-10-07T15:19:37.142Z",
+        "description": "A delightful selection of dishes for a memorable dining experience",
+        "availability_status": true,
+        "dish_category_id": "e42a7bfc-9f02-4782-83c3-e9f4baf99dcf",
+        "menu_id": "603aea8c-ffeb-4f51-868b-54805850d4ca"
+      },
+      {
+        "id": "ca701e0b-3f84-4178-8886-e9b4ed90fd5a",
+        "created_at": "2023-10-07T19:35:24.744Z",
+        "updated_at": "2023-10-08T04:02:12.276Z",
+        "description": "An assortment of flavors to satisfy every palate",
+        "availability_status": false,
+        "dish_category_id": "2843b865-a12f-4e4a-ab9f-f328e4259c85",
+        "menu_id": "4e3c4888-4547-4ed1-9bc6-f31b49866d11"
+      },
+      {
+        "id": "6afe1c83-f1d4-4624-b5ee-4c58ba60d11a",
+        "created_at": "2023-10-07T13:29:22.770Z",
+        "updated_at": "2023-10-07T08:21:08.403Z",
+        "description": "Discover the perfect pairing for your main course",
+        "availability_status": false,
+        "dish_category_id": "84ff3114-f122-412b-9527-70d24b4260d7",
+        "menu_id": "921b9cde-f372-4d1b-aa4c-bd4f0fc5b31e"
+      },
+      {
+        "id": "7e0623a0-161e-4bec-bfc4-c11415a895fb",
+        "created_at": "2023-10-07T16:07:04.684Z",
+        "updated_at": "2023-10-07T14:18:07.449Z",
+        "description": "Indulge in our chef's recommended dishes",
+        "availability_status": false,
+        "dish_category_id": "84ff3114-f122-412b-9527-70d24b4260d7",
+        "menu_id": "7d20e6f7-6575-4b87-868e-767f8c73c968"
+      },
+      {
+        "id": "321fd1ec-fcf7-4adb-948d-dca30acc48c4",
+        "created_at": "2023-10-07T17:24:32.846Z",
+        "updated_at": "2023-10-08T02:36:52.665Z",
+        "description": "Enhance your meal with our specially curated dishes",
+        "availability_status": true,
+        "dish_category_id": "84ff3114-f122-412b-9527-70d24b4260d7",
+        "menu_id": "d563a510-6b12-40b9-b9db-823ef58f94a7"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "c14c22a2-9c44-42d6-a2dd-45c496b4910b",
+        "created_at": "2023-10-07T07:18:45.458Z",
+        "updated_at": "2023-10-07T13:15:21.142Z",
+        "availability_status": "Available",
+        "dish_category_id": "2843b865-a12f-4e4a-ab9f-f328e4259c85",
+        "menu_item_id": "1d8721ff-4902-4c7b-aa2b-e826873b73c6"
+      },
+      {
+        "id": "923c1650-fb36-407a-8246-4eb2ddda2451",
+        "created_at": "2023-10-08T03:08:10.261Z",
+        "updated_at": "2023-10-07T18:33:30.665Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "43cb7bdf-1c26-4b4d-afc6-6c017fd3bf98",
+        "menu_item_id": "295bab6f-1a3c-41df-a7ba-fa098ea78195"
+      },
+      {
+        "id": "8ada1b1b-3341-45d0-8ed2-02f03a0be8f0",
+        "created_at": "2023-10-07T14:43:46.295Z",
+        "updated_at": "2023-10-07T19:51:53.281Z",
+        "availability_status": "Limited Stock",
+        "dish_category_id": "2843b865-a12f-4e4a-ab9f-f328e4259c85",
+        "menu_item_id": "295bab6f-1a3c-41df-a7ba-fa098ea78195"
+      },
+      {
+        "id": "9861e02d-0fd4-42d4-a96a-c2a7160dd452",
+        "created_at": "2023-10-07T22:50:27.764Z",
+        "updated_at": "2023-10-07T16:30:54.690Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "43cb7bdf-1c26-4b4d-afc6-6c017fd3bf98",
+        "menu_item_id": "e3d47d6a-11e6-4c86-8745-3e356f716dff"
+      },
+      {
+        "id": "def00f3e-8708-46e0-867d-e7dc6cdadae2",
+        "created_at": "2023-10-07T13:32:48.969Z",
+        "updated_at": "2023-10-07T06:13:01.961Z",
+        "availability_status": "Seasonal",
+        "dish_category_id": "2843b865-a12f-4e4a-ab9f-f328e4259c85",
+        "menu_item_id": "e3d47d6a-11e6-4c86-8745-3e356f716dff"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bab519c2-c9b8-41c1-8009-a5d50c924e62",
+        "email": "Irving.Dooley@roq.tech",
+        "firstName": "Mable",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90605209",
+        "tenantId": null
+      },
+      {
+        "reference": "24a80b1b-9554-452c-81c2-9542397ad025",
+        "email": "Bryana.Pouros@roq.tech",
+        "firstName": "Adaline",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1050.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e2122b72-4441-4714-9eb0-4c5884b9cbe8",
+        "email": "Louie73@roq.tech",
+        "firstName": "Moriah",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/217.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cdf42a64-ca4a-40c0-a7bf-6060bb8114eb",
+        "email": "Blanca.Runolfsson21@roq.tech",
+        "firstName": "Alanna",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94358181",
+        "tenantId": null
+      },
+      {
+        "reference": "41cb998c-eef8-4b55-8cdd-29fd111f0f7a",
+        "email": "Casper_Schaefer@roq.tech",
+        "firstName": "Rusty",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76177007",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "fa0e8771-7200-4027-9d53-d2b7b14838bf",
+        "created_at": "2023-10-08T01:35:56.458Z",
+        "updated_at": "2023-10-08T01:35:17.888Z",
+        "availability_status": false,
+        "dish_description": "Delicious spaghetti with homemade marinara sauce",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.1822578189894557,
+        "dish_calories": 72968,
+        "dish_ingredients": "Pasta, tomatoes, garlic, basil",
+        "dish_preparation_time": 43279,
+        "dish_name": "Spaghetti Marinara",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 17254,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "580491c4-030b-4ef8-a2fd-c8c0b20fc077",
+        "created_at": "2023-10-07T19:00:08.211Z",
+        "updated_at": "2023-10-07T19:07:23.368Z",
+        "availability_status": false,
+        "dish_description": "Tender beef bourguignon served with mashed potatoes",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.7262609775643796,
+        "dish_calories": 50779,
+        "dish_ingredients": "Beef, red wine, onions, carrots",
+        "dish_preparation_time": 3057,
+        "dish_name": "Beef Bourguignon",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 74110,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "886c9573-b3d4-4893-b081-5ae7e7ab3297",
+        "created_at": "2023-10-08T01:15:45.912Z",
+        "updated_at": "2023-10-08T04:17:31.619Z",
+        "availability_status": false,
+        "dish_description": "Fresh salmon sashimi with wasabi and soy sauce",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.8782158882822841,
+        "dish_calories": 48080,
+        "dish_ingredients": "Salmon, wasabi, soy sauce, ginger",
+        "dish_preparation_time": 55125,
+        "dish_name": "Salmon Sashimi",
+        "dish_allergens": "Fish",
+        "dish_spiciness_level": 11341,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "f0a5df07-722f-4271-a41b-0c4e08d19403",
+        "created_at": "2023-10-07T17:09:30.383Z",
+        "updated_at": "2023-10-08T01:59:01.330Z",
+        "availability_status": false,
+        "dish_description": "Margherita pizza with a thin crispy crust",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.9007433769293129,
+        "dish_calories": 87430,
+        "dish_ingredients": "Dough, tomato sauce, mozzarella, basil",
+        "dish_preparation_time": 13237,
+        "dish_name": "Margherita Pizza",
+        "dish_allergens": "Dairy, Gluten",
+        "dish_spiciness_level": 45239,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "1c88dd46-8d4b-4c1b-a945-962ff75891ad",
+        "created_at": "2023-10-07T19:07:23.900Z",
+        "updated_at": "2023-10-08T03:50:17.239Z",
+        "availability_status": false,
+        "dish_description": "Juicy ribeye steak cooked to perfection",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.962004103930667,
+        "dish_calories": 47821,
+        "dish_ingredients": "Beef, salt, pepper, butter",
+        "dish_preparation_time": 11034,
+        "dish_name": "Ribeye Steak",
+        "dish_allergens": "None",
+        "dish_spiciness_level": 29828,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      }
+    ],
+    "menu": [
+      {
+        "id": "1601d9e6-2119-412e-abfe-d78822d858d3",
+        "created_at": "2023-10-07T09:41:01.961Z",
+        "updated_at": "2023-10-07T20:39:41.401Z",
+        "availability_status": false,
+        "description": "Our menu offers a variety of delicious dishes from around the world",
+        "name": "International Cuisine",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8fa09b82-b6f3-4cc5-b5e7-a1fcb6237536",
+        "created_at": "2023-10-07T19:15:20.083Z",
+        "updated_at": "2023-10-07T08:22:42.545Z",
+        "availability_status": true,
+        "description": "Experience the flavors of our carefully crafted menu",
+        "name": "Gourmet Delights",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fa7ca6b2-a56e-4e1d-acf8-cca5d33b66b7",
+        "created_at": "2023-10-07T11:56:50.623Z",
+        "updated_at": "2023-10-07T21:15:33.489Z",
+        "availability_status": false,
+        "description": "Indulge in a culinary journey with our diverse menu options",
+        "name": "Sushi Specialties",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "91be6e30-3606-49a3-a826-c704072a00c7",
+        "created_at": "2023-10-07T05:31:03.530Z",
+        "updated_at": "2023-10-07T09:14:38.884Z",
+        "availability_status": true,
+        "description": "Taste the finest ingredients in our thoughtfully curated menu",
+        "name": "Pizza Paradise",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4b450d74-a370-47b7-9641-1fa84a407ffd",
+        "created_at": "2023-10-07T11:45:44.852Z",
+        "updated_at": "2023-10-08T00:16:35.811Z",
+        "availability_status": false,
+        "description": "Discover a fusion of flavors in our innovative menu",
+        "name": "Steakhouse Favorites",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "bfe91b44-7ec6-46d6-b0fd-ca144da32675",
+        "created_at": "2023-10-08T04:43:35.374Z",
+        "updated_at": "2023-10-07T09:05:59.370Z",
+        "description": "Explore a wide range of dishes in this category",
+        "name": "Pasta",
+        "tags": "Italian",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#FF5733",
+        "menu_id": "91be6e30-3606-49a3-a826-c704072a00c7"
+      },
+      {
+        "id": "55f76fb5-066b-4018-a26a-7020afed7d7b",
+        "created_at": "2023-10-07T23:38:50.383Z",
+        "updated_at": "2023-10-07T22:05:35.780Z",
+        "description": "Discover the essence of this culinary category",
+        "name": "Meat",
+        "tags": "Protein-rich",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#4CAF50",
+        "menu_id": "4b450d74-a370-47b7-9641-1fa84a407ffd"
+      },
+      {
+        "id": "c2acd15a-c437-4bc1-b817-840bfc0a9b5d",
+        "created_at": "2023-10-07T21:55:01.142Z",
+        "updated_at": "2023-10-07T22:24:34.099Z",
+        "description": "Indulge in the flavors of this unique dish category",
+        "name": "Seafood",
+        "tags": "Fresh",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#3498DB",
+        "menu_id": "4b450d74-a370-47b7-9641-1fa84a407ffd"
+      },
+      {
+        "id": "6ac18245-86d5-44d7-8e90-47ea9baf84ec",
+        "created_at": "2023-10-07T08:33:52.460Z",
+        "updated_at": "2023-10-07T19:21:37.390Z",
+        "description": "Experience the rich history of this dish category",
+        "name": "Pizza",
+        "tags": "Classic",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FFC300",
+        "menu_id": "fa7ca6b2-a56e-4e1d-acf8-cca5d33b66b7"
+      },
+      {
+        "id": "83692eec-7a9b-4d08-8f67-8ae78af4e2c7",
+        "created_at": "2023-10-07T09:26:44.211Z",
+        "updated_at": "2023-10-07T09:55:45.879Z",
+        "description": "Savor the traditional recipes of this dish category",
+        "name": "Steak",
+        "tags": "Grilled",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#9B59B6",
+        "menu_id": "91be6e30-3606-49a3-a826-c704072a00c7"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "0968e8f9-9065-4fff-8cbd-33f7046465c5",
+        "created_at": "2023-10-07T16:45:49.465Z",
+        "updated_at": "2023-10-07T10:14:13.040Z",
+        "description": "A delightful combination of flavors",
+        "availability_status": false,
+        "dish_category_id": "6ac18245-86d5-44d7-8e90-47ea9baf84ec",
+        "menu_id": "91be6e30-3606-49a3-a826-c704072a00c7"
+      },
+      {
+        "id": "f064c362-d295-49fe-9b51-b5dd8537305f",
+        "created_at": "2023-10-07T19:55:56.979Z",
+        "updated_at": "2023-10-07T20:54:38.734Z",
+        "description": "An exquisite dish category for the discerning palate",
+        "availability_status": false,
+        "dish_category_id": "6ac18245-86d5-44d7-8e90-47ea9baf84ec",
+        "menu_id": "8fa09b82-b6f3-4cc5-b5e7-a1fcb6237536"
+      },
+      {
+        "id": "aba16cd7-c993-4392-9437-33e3eab771fd",
+        "created_at": "2023-10-08T00:45:18.792Z",
+        "updated_at": "2023-10-07T06:16:35.144Z",
+        "description": "A unique culinary experience awaits",
+        "availability_status": false,
+        "dish_category_id": "83692eec-7a9b-4d08-8f67-8ae78af4e2c7",
+        "menu_id": "8fa09b82-b6f3-4cc5-b5e7-a1fcb6237536"
+      },
+      {
+        "id": "fb050930-b59a-4c68-b67e-5e3653a64a1e",
+        "created_at": "2023-10-07T09:30:40.705Z",
+        "updated_at": "2023-10-07T12:23:02.065Z",
+        "description": "A fusion of traditional and modern dishes",
+        "availability_status": true,
+        "dish_category_id": "bfe91b44-7ec6-46d6-b0fd-ca144da32675",
+        "menu_id": "4b450d74-a370-47b7-9641-1fa84a407ffd"
+      },
+      {
+        "id": "62395686-43c1-40bc-80b0-0b433d7439db",
+        "created_at": "2023-10-07T17:49:14.404Z",
+        "updated_at": "2023-10-07T14:33:22.159Z",
+        "description": "A feast for the senses",
+        "availability_status": true,
+        "dish_category_id": "6ac18245-86d5-44d7-8e90-47ea9baf84ec",
+        "menu_id": "fa7ca6b2-a56e-4e1d-acf8-cca5d33b66b7"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "cbc310e9-0b34-401f-ad52-425252e082d2",
+        "created_at": "2023-10-07T10:04:51.456Z",
+        "updated_at": "2023-10-07T17:20:48.648Z",
+        "availability_status": "Available",
+        "dish_category_id": "bfe91b44-7ec6-46d6-b0fd-ca144da32675",
+        "menu_item_id": "1c88dd46-8d4b-4c1b-a945-962ff75891ad"
+      },
+      {
+        "id": "11a6d256-424a-4b66-b1f8-02dbffa44c24",
+        "created_at": "2023-10-08T00:12:46.594Z",
+        "updated_at": "2023-10-07T07:28:54.709Z",
+        "availability_status": "Available",
+        "dish_category_id": "83692eec-7a9b-4d08-8f67-8ae78af4e2c7",
+        "menu_item_id": "1c88dd46-8d4b-4c1b-a945-962ff75891ad"
+      },
+      {
+        "id": "be4fab3f-f02d-4494-8dcc-719c7da2335d",
+        "created_at": "2023-10-07T19:20:40.024Z",
+        "updated_at": "2023-10-07T14:43:50.235Z",
+        "availability_status": "Out of Stock",
+        "dish_category_id": "6ac18245-86d5-44d7-8e90-47ea9baf84ec",
+        "menu_item_id": "f0a5df07-722f-4271-a41b-0c4e08d19403"
+      },
+      {
+        "id": "4799552c-55e2-4ea4-b7a4-1a40ee0d9499",
+        "created_at": "2023-10-08T02:51:44.529Z",
+        "updated_at": "2023-10-07T18:03:16.879Z",
+        "availability_status": "Available",
+        "dish_category_id": "bfe91b44-7ec6-46d6-b0fd-ca144da32675",
+        "menu_item_id": "1c88dd46-8d4b-4c1b-a945-962ff75891ad"
+      },
+      {
+        "id": "384a1a17-8607-4979-af99-8a68e17ef9f1",
+        "created_at": "2023-10-07T11:08:27.242Z",
+        "updated_at": "2023-10-07T12:24:24.868Z",
+        "availability_status": "Available",
+        "dish_category_id": "c2acd15a-c437-4bc1-b817-840bfc0a9b5d",
+        "menu_item_id": "580491c4-030b-4ef8-a2fd-c8c0b20fc077"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b216f613-eec3-4cef-898f-37c4734f87f8",
+        "email": "Mohammed.Runolfsson19@roq.tech",
+        "firstName": "Kayla",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/129.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "68735a30-1cc9-4f59-92bb-5e8eb0e744f8",
+        "email": "Jody.Gleichner@roq.tech",
+        "firstName": "Eldon",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99230575",
+        "tenantId": null
+      },
+      {
+        "reference": "6d6fe6e1-fb13-454f-8145-e3c916178706",
+        "email": "Allie.Sawayn56@roq.tech",
+        "firstName": "Grayson",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bfdf7d9c-64af-4e01-be4b-44d83af11d01",
+        "email": "Mazie7@roq.tech",
+        "firstName": "Roselyn",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/104.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e651351c-b351-4dbb-8b6f-80d41a66360e",
+        "email": "Guillermo_Stoltenberg@roq.tech",
+        "firstName": "Phyllis",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/923.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "menu_item": [
+      {
+        "id": "474dd3cf-4e68-4bc2-9c8c-b83a747a93c5",
+        "created_at": "2023-10-07T22:53:58.756Z",
+        "updated_at": "2023-10-07T15:22:23.875Z",
+        "availability_status": false,
+        "dish_description": "Tender grilled chicken served with roasted vegetables",
+        "dish_image_url": "https://example.com/dish1.jpg",
+        "dish_price": 0.43166660820133984,
+        "dish_calories": 54764,
+        "dish_ingredients": "Chicken, bell peppers, zucchini, olive oil",
+        "dish_preparation_time": 5306,
+        "dish_name": "Grilled Chicken with Roasted Vegetables",
+        "dish_allergens": "Contains dairy",
+        "dish_spiciness_level": 10347,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "93b2c986-bb16-42de-a985-d87647f462f1",
+        "created_at": "2023-10-07T13:05:04.861Z",
+        "updated_at": "2023-10-07T07:46:30.324Z",
+        "availability_status": true,
+        "dish_description": "Creamy mushroom risotto topped with parmesan cheese",
+        "dish_image_url": "https://example.com/dish2.jpg",
+        "dish_price": 0.7657097813207656,
+        "dish_calories": 20217,
+        "dish_ingredients": "Arborio rice, mushrooms, vegetable broth, parmesan cheese",
+        "dish_preparation_time": 48358,
+        "dish_name": "Mushroom Risotto",
+        "dish_allergens": "Gluten-free",
+        "dish_spiciness_level": 61430,
+        "dish_vegan": false,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "6e6ac07d-dd56-4e10-a68b-9cc55d63f5eb",
+        "created_at": "2023-10-08T02:29:43.837Z",
+        "updated_at": "2023-10-08T03:01:28.289Z",
+        "availability_status": false,
+        "dish_description": "Spicy beef tacos with homemade salsa and guacamole",
+        "dish_image_url": "https://example.com/dish3.jpg",
+        "dish_price": 0.352722086943686,
+        "dish_calories": 74937,
+        "dish_ingredients": "Beef, tortillas, tomatoes, onions, cilantro",
+        "dish_preparation_time": 15973,
+        "dish_name": "Spicy Beef Tacos",
+        "dish_allergens": "Contains soy",
+        "dish_spiciness_level": 2002,
+        "dish_vegan": true,
+        "dish_gluten_free": true
+      },
+      {
+        "id": "2635efa3-5015-48dd-9a49-427cfe085c96",
+        "created_at": "2023-10-08T04:52:00.093Z",
+        "updated_at": "2023-10-08T01:28:41.604Z",
+        "availability_status": false,
+        "dish_description": "Fresh salmon fillet with lemon butter sauce",
+        "dish_image_url": "https://example.com/dish4.jpg",
+        "dish_price": 0.2920980241615325,
+        "dish_calories": 83481,
+        "dish_ingredients": "Salmon fillet, lemon, butter, dill",
+        "dish_preparation_time": 2549,
+        "dish_name": "Salmon with Lemon Butter Sauce",
+        "dish_allergens": "Contains fish",
+        "dish_spiciness_level": 44333,
+        "dish_vegan": true,
+        "dish_gluten_free": false
+      },
+      {
+        "id": "bbe5fb78-4bd2-455b-a7f5-1f825f5ad89c",
+        "created_at": "2023-10-08T03:45:32.410Z",
+        "updated_at": "2023-10-07T15:32:47.011Z",
+        "availability_status": true,
+        "dish_description": "Crispy fried tofu with sweet and sour sauce",
+        "dish_image_url": "https://example.com/dish5.jpg",
+        "dish_price": 0.5967792861629277,
+        "dish_calories": 63276,
+        "dish_ingredients": "Tofu, cornstarch, soy sauce, vinegar, sugar",
+        "dish_preparation_time": 66850,
+        "dish_name": "Sweet and Sour Tofu",
+        "dish_allergens": "Vegan-friendly",
+        "dish_spiciness_level": 18670,
+        "dish_vegan": false,
+        "dish_gluten_free": false
+      }
+    ],
+    "menu": [
+      {
+        "id": "352a47ab-cbd1-4bf2-a0fb-c099b255915c",
+        "created_at": "2023-10-07T07:26:17.354Z",
+        "updated_at": "2023-10-07T09:39:07.333Z",
+        "availability_status": false,
+        "description": "A selection of our chef's specialties",
+        "name": "Chef's Special Menu",
+        "image": "https://example.com/menu1.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f9cd8af8-4d19-40d3-a52e-2ad4943ba85f",
+        "created_at": "2023-10-07T10:41:34.488Z",
+        "updated_at": "2023-10-07T23:03:12.749Z",
+        "availability_status": false,
+        "description": "A variety of dishes inspired by international cuisines",
+        "name": "World Cuisine Menu",
+        "image": "https://example.com/menu2.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0bba26fe-98a1-4fd5-9ef3-5d37fac1491c",
+        "created_at": "2023-10-07T23:49:28.704Z",
+        "updated_at": "2023-10-07T12:36:56.334Z",
+        "availability_status": false,
+        "description": "A curated menu showcasing seasonal ingredients",
+        "name": "Seasonal Delights Menu",
+        "image": "https://example.com/menu3.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fda5d441-79c8-4b8f-a387-127f260125d1",
+        "created_at": "2023-10-07T17:37:01.863Z",
+        "updated_at": "2023-10-07T11:43:33.751Z",
+        "availability_status": true,
+        "description": "A fusion of traditional and modern flavors",
+        "name": "Modern Fusion Menu",
+        "image": "https://example.com/menu4.jpg",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6d27d6cb-2007-4afc-b435-b944f573c27a",
+        "created_at": "2023-10-07T08:32:17.230Z",
+        "updated_at": "2023-10-07T11:25:35.687Z",
+        "availability_status": true,
+        "description": "A feast for your taste buds",
+        "name": "Taste Sensation Menu",
+        "image": "https://example.com/menu5.jpg",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "dish_category": [
+      {
+        "id": "92644ae4-c3b5-4109-ad73-542017bdc4a2",
+        "created_at": "2023-10-07T17:18:44.631Z",
+        "updated_at": "2023-10-07T11:09:11.100Z",
+        "description": "Delicious dishes from around the world",
+        "name": "International Delights",
+        "tags": "international",
+        "dish_category_image": "https://example.com/category1.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FF5733",
+        "menu_id": "6d27d6cb-2007-4afc-b435-b944f573c27a"
+      },
+      {
+        "id": "e5bc35d7-46ea-4acd-93d4-7a71fded1dcf",
+        "created_at": "2023-10-07T05:53:23.129Z",
+        "updated_at": "2023-10-08T01:07:10.855Z",
+        "description": "Mouthwatering options for every craving",
+        "name": "Crave-Worthy Classics",
+        "tags": "classic",
+        "dish_category_image": "https://example.com/category2.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#4CAF50",
+        "menu_id": "fda5d441-79c8-4b8f-a387-127f260125d1"
+      },
+      {
+        "id": "8fcf8c69-07f9-47b0-bf03-9ae6e425f723",
+        "created_at": "2023-10-07T17:09:53.491Z",
+        "updated_at": "2023-10-07T11:02:13.907Z",
+        "description": "A selection of healthy and flavorful choices",
+        "name": "Healthy and Flavorful",
+        "tags": "healthy",
+        "dish_category_image": "https://example.com/category3.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#FFC300",
+        "menu_id": "0bba26fe-98a1-4fd5-9ef3-5d37fac1491c"
+      },
+      {
+        "id": "c2a6d820-7594-46d0-8ca4-3bca45e4ebb8",
+        "created_at": "2023-10-07T14:38:25.093Z",
+        "updated_at": "2023-10-07T14:08:01.858Z",
+        "description": "Indulge in our signature dishes",
+        "name": "Signature Specials",
+        "tags": "signature",
+        "dish_category_image": "https://example.com/category4.jpg",
+        "dish_category_status": false,
+        "dish_category_color": "#9C27B0",
+        "menu_id": "0bba26fe-98a1-4fd5-9ef3-5d37fac1491c"
+      },
+      {
+        "id": "6192ba4f-000b-4e17-8865-72e608081b5e",
+        "created_at": "2023-10-07T19:17:11.765Z",
+        "updated_at": "2023-10-07T15:06:27.102Z",
+        "description": "Discover new flavors with our unique creations",
+        "name": "Unique Creations",
+        "tags": "unique",
+        "dish_category_image": "https://example.com/category5.jpg",
+        "dish_category_status": true,
+        "dish_category_color": "#00BCD4",
+        "menu_id": "0bba26fe-98a1-4fd5-9ef3-5d37fac1491c"
+      }
+    ],
+    "menu_dish_category": [
+      {
+        "id": "945657b3-509e-4576-8830-903a8127a659",
+        "created_at": "2023-10-07T15:15:35.333Z",
+        "updated_at": "2023-10-07T18:54:22.466Z",
+        "description": "A delightful combination of flavors and textures",
+        "availability_status": false,
+        "dish_category_id": "c2a6d820-7594-46d0-8ca4-3bca45e4ebb8",
+        "menu_id": "f9cd8af8-4d19-40d3-a52e-2ad4943ba85f"
+      },
+      {
+        "id": "5013f97d-f72d-4a9b-9a1c-8a540d33ceb8",
+        "created_at": "2023-10-07T07:05:15.772Z",
+        "updated_at": "2023-10-07T18:01:50.826Z",
+        "description": "A perfect pairing for your meal",
+        "availability_status": false,
+        "dish_category_id": "92644ae4-c3b5-4109-ad73-542017bdc4a2",
+        "menu_id": "6d27d6cb-2007-4afc-b435-b944f573c27a"
+      },
+      {
+        "id": "efe8eedb-b4b0-4433-ae6c-04be87be8cf5",
+        "created_at": "2023-10-07T07:19:22.477Z",
+        "updated_at": "2023-10-08T01:50:46.696Z",
+        "description": "An exquisite addition to your dining experience",
+        "availability_status": false,
+        "dish_category_id": "8fcf8c69-07f9-47b0-bf03-9ae6e425f723",
+        "menu_id": "f9cd8af8-4d19-40d3-a52e-2ad4943ba85f"
+      },
+      {
+        "id": "effeaa9a-325a-466a-8d78-2b77b028b066",
+        "created_at": "2023-10-07T10:13:48.664Z",
+        "updated_at": "2023-10-07T22:54:45.851Z",
+        "description": "A must-try for food enthusiasts",
+        "availability_status": false,
+        "dish_category_id": "8fcf8c69-07f9-47b0-bf03-9ae6e425f723",
+        "menu_id": "fda5d441-79c8-4b8f-a387-127f260125d1"
+      },
+      {
+        "id": "ba7800b7-2371-4fe6-bf40-3da4a501278e",
+        "created_at": "2023-10-07T10:23:14.041Z",
+        "updated_at": "2023-10-07T19:38:58.579Z",
+        "description": "A unique twist on traditional favorites",
+        "availability_status": false,
+        "dish_category_id": "8fcf8c69-07f9-47b0-bf03-9ae6e425f723",
+        "menu_id": "6d27d6cb-2007-4afc-b435-b944f573c27a"
+      }
+    ],
+    "dish_category_menu_item": [
+      {
+        "id": "9826ee15-53d3-4cbf-97df-7dc19e688171",
+        "created_at": "2023-10-07T23:24:52.810Z",
+        "updated_at": "2023-10-07T21:26:50.172Z",
+        "availability_status": "Available",
+        "dish_category_id": "6192ba4f-000b-4e17-8865-72e608081b5e",
+        "menu_item_id": "2635efa3-5015-48dd-9a49-427cfe085c96"
+      },
+      {
+        "id": "d8d2ca9e-6504-468f-a927-e672cb494ea0",
+        "created_at": "2023-10-07T05:59:08.193Z",
+        "updated_at": "2023-10-07T06:36:05.539Z",
+        "availability_status": "Sold Out",
+        "dish_category_id": "6192ba4f-000b-4e17-8865-72e608081b5e",
+        "menu_item_id": "474dd3cf-4e68-4bc2-9c8c-b83a747a93c5"
+      },
+      {
+        "id": "db3c78c5-0830-404e-b593-24da3adac491",
+        "created_at": "2023-10-07T12:57:32.238Z",
+        "updated_at": "2023-10-07T13:36:25.289Z",
+        "availability_status": "Limited Stock",
+        "dish_category_id": "c2a6d820-7594-46d0-8ca4-3bca45e4ebb8",
+        "menu_item_id": "93b2c986-bb16-42de-a985-d87647f462f1"
+      },
+      {
+        "id": "b8fe0b82-e9af-4e6c-aa29-3f02b9f709c6",
+        "created_at": "2023-10-07T06:18:52.682Z",
+        "updated_at": "2023-10-07T09:01:29.692Z",
+        "availability_status": "Coming Soon",
+        "dish_category_id": "8fcf8c69-07f9-47b0-bf03-9ae6e425f723",
+        "menu_item_id": "93b2c986-bb16-42de-a985-d87647f462f1"
+      },
+      {
+        "id": "b306057b-3b2e-4ea8-a9cd-9ad987ae393b",
+        "created_at": "2023-10-07T23:33:35.815Z",
+        "updated_at": "2023-10-07T16:37:46.618Z",
+        "availability_status": "Seasonal Special",
+        "dish_category_id": "8fcf8c69-07f9-47b0-bf03-9ae6e425f723",
+        "menu_item_id": "bbe5fb78-4bd2-455b-a7f5-1f825f5ad89c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7552089c-1eef-49fa-9a89-cdc52340fd4e",
+        "email": "Haylee22@roq.tech",
+        "firstName": "Viva",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84935119",
+        "tenantId": null
+      },
+      {
+        "reference": "7a05574f-d578-4d05-b9ac-384b90665717",
+        "email": "Frank.Denesik@roq.tech",
+        "firstName": "Myrtis",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99180044",
+        "tenantId": null
+      },
+      {
+        "reference": "3a38e1de-8031-4a9a-875b-9cacf16492bc",
+        "email": "Owen_Orn@roq.tech",
+        "firstName": "Jacey",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/425.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dfea8b39-725d-48d6-b023-0befdc0ce8d2",
+        "email": "Clotilde.Conroy12@roq.tech",
+        "firstName": "Sarina",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34405649",
+        "tenantId": null
+      },
+      {
+        "reference": "279ac114-7831-400b-8836-3d85b25611e8",
+        "email": "Maurine56@roq.tech",
+        "firstName": "Destiney",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1177.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
